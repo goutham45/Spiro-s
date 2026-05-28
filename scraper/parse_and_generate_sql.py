@@ -1,0 +1,186 @@
+#!/usr/bin/env python3
+"""
+Parse spiros_raw_api.json (or test_getStoreV1.json) and generate
+spiros_updates.sql with real Uber Eats prices, descriptions, and images.
+"""
+
+import json
+import re
+from pathlib import Path
+
+OUT_DIR = Path(__file__).parent
+
+LABEL_TO_SLUG = {
+    "Pancakes":                       "pancakes",
+    "French Toast and Waffles":       "french-toast-waffles",
+    "Eggs and 3 Egg Omelettes":       "eggs-omelettes",
+    "Omelettes":                      "omelettes",
+    "Spiro's Special":                "spiros-special",
+    "Low Cal Omelettes":              "low-cal-omelettes",
+    "Super 3 Egg Omelette Wrap":      "super-3-egg-wrap",
+    "Cereal":                         "cereal",
+    "Body Builder's Breakfast":       "body-builders",
+    "Bagels":                         "bagels",
+    "Breakfast Extras":               "breakfast-extras",
+    "Appetizers and Side Orders":     "appetizers",
+    "Cold Salad Platters":            "cold-salad-platters",
+    "Salads":                         "salads",
+    "Tasty Sandwiches":               "tasty-sandwiches",
+    "Grilled Pita Sandwiches":        "grilled-pita",
+    "Grilled Chicken Sandwiches":     "grilled-chicken-sandwiches",
+    "Special Sandwiches":             "special-sandwiches",
+    "Hot Open Sandwiches":            "hot-open-sandwiches",
+    "Classic Burgers":                "classic-burgers",
+    "Classic Burger Deluxe":          "classic-burger-deluxe",
+    "Specialty Burgers":              "specialty-burgers",
+    "Slim Line":                      "slim-line",
+    "Triple Decker Clubs":            "triple-decker-clubs",
+    "Carving Board Sandwiches":       "carving-board",
+    "Our New Gourmet Wraps":          "gourmet-wraps",
+    "Steaks and Chops":               "steaks-chops",
+    "Sautes":                         "sautes",
+    "Broiled Seafood":                "broiled-seafood",
+    "Fried Seafood":                  "fried-seafood",
+    "Entrees and Roasts":             "entrees-roasts",
+    "Spaghetti":                      "spaghetti",
+    "Italian Specialties":            "italian-specialties",
+    "Greek Specialties":              "greek-specialties",
+    "Chef Specials":                  "chef-specials",
+    "Fruits and Puddings":            "fruits-puddings",
+    "Danish and Muffins":             "danish-muffins",
+    "Pies and Cakes":                 "pies-cakes",
+    "Desserts":                       "desserts",
+    "Ice Cream Sodas":                "ice-cream-sodas",
+    "Juices and Fruits":              "juices-fruits",
+    "Beverages":                      "beverages",
+}
+
+def endorsement_to_star(text: str) -> float | None:
+    """Convert UE endorsement badge text to a star rating."""
+    if not text:
+        return None
+    t = text.lower()
+    if "#1" in t:   return 5.0
+    if "#2" in t:   return 4.9
+    if "#3" in t:   return 4.8
+    if "#4" in t:   return 4.7
+    if "#5" in t:   return 4.7
+    if "popular" in t: return 4.8
+    return None
+
+def esc(s: str) -> str:
+    return s.replace("\\", "\\\\").replace("'", "\\'")
+
+def main():
+    # Load API data
+    api_file = OUT_DIR / "test_getStoreV1.json"
+    raw = json.loads(api_file.read_text())
+
+    d = raw.get("data") or raw
+    csm = d.get("catalogSectionsMap", {})
+    sections_list = list(csm.values())[0]   # list of 42 section objects
+
+    rows = []
+    for sec in sections_list:
+        payload = sec.get("payload", {})
+        std     = payload.get("standardItemsPayload", {})
+        sec_name = std.get("title", {}).get("text", "").strip()
+        slug     = LABEL_TO_SLUG.get(sec_name) or re.sub(r"[^a-z0-9]+", "-", sec_name.lower()).strip("-")
+        items    = std.get("catalogItems", [])
+
+        for it in items:
+            name  = (it.get("title") or "").strip()
+            price_cents = it.get("price", 0) or 0
+            price = round(price_cents / 100, 2)
+            img   = it.get("imageUrl") or ""
+            # description: prefer itemDescription, fall back to itemDescriptionBadge.text
+            desc  = (it.get("itemDescription") or
+                     (it.get("itemDescriptionBadge") or {}).get("text") or "").strip()
+            # endorsement badge (for star)
+            end_text = ((it.get("endorsement") or {}).get("text") or
+                        (it.get("endorsementV2") or {}).get("text") or "")
+            stars = endorsement_to_star(end_text)
+
+            if not name or not price:
+                continue
+
+            rows.append({
+                "section": sec_name,
+                "slug":    slug,
+                "name":    name,
+                "price":   price,
+                "img":     img,
+                "desc":    desc[:255] if desc else "",
+                "stars":   stars,
+            })
+
+    # ── generate SQL ──────────────────────────────────────────────────────────
+    lines = [
+        "-- Auto-generated by parse_and_generate_sql.py",
+        "-- Real Uber Eats prices for ALL 375 items across 42 sections",
+        "-- Run: mysql -u root qfood < spiros_updates.sql",
+        "",
+        "USE qfood;",
+        "",
+    ]
+
+    current_section = None
+    for r in rows:
+        if r["section"] != current_section:
+            current_section = r["section"]
+            lines.append(f"\n-- ══ {current_section} ══")
+
+        name  = esc(r["name"])
+        slug  = r["slug"]
+        price = r["price"]
+        img   = esc(r["img"])
+        desc  = esc(r["desc"])
+        stars = r["stars"]
+
+        set_parts = [f"food_price = {price}"]
+        if img:
+            set_parts.append(f"food_src = '{img}'")
+        if desc:
+            set_parts.append(f"food_desc = '{desc}'")
+        if stars is not None:
+            set_parts.append(f"food_star = {stars}")
+
+        set_clause = ", ".join(set_parts)
+        lines.append(
+            f"UPDATE food SET {set_clause} "
+            f"WHERE food_name = '{name}' AND food_category = '{slug}';"
+        )
+
+    lines += [
+        "",
+        f"-- Total: {len(rows)} items across {len(sections_list)} sections",
+        "SELECT CONCAT('Updated: ', ROW_COUNT(), ' rows') AS result;",
+    ]
+
+    sql_path = OUT_DIR / "spiros_updates.sql"
+    sql_path.write_text("\n".join(lines))
+    print(f"✅ SQL written to {sql_path}  ({len(rows)} items)")
+
+    # ── also write a JSON summary ─────────────────────────────────────────────
+    json_path = OUT_DIR / "spiros_scraped.json"
+    json_path.write_text(json.dumps(rows, indent=2, ensure_ascii=False))
+    print(f"✅ JSON written to {json_path}")
+
+    # ── print summary ─────────────────────────────────────────────────────────
+    from collections import defaultdict
+    by_sec = defaultdict(list)
+    for r in rows:
+        by_sec[r["section"]].append(r)
+
+    print("\n── FULL MENU SUMMARY ────────────────────────────────────────")
+    for sec, items in by_sec.items():
+        print(f"\n  {sec} ({len(items)} items, slug: {items[0]['slug']})")
+        for it in items:
+            star_str = f" ★{it['stars']}" if it["stars"] else ""
+            img_str  = " 📷" if it["img"] else ""
+            print(f"    ${it['price']:<7}{star_str:<6}  {it['name'][:55]}{img_str}")
+    print(f"\n{'─'*62}")
+    print(f"  {len(rows)} items | {len(by_sec)} sections")
+
+if __name__ == "__main__":
+    main()

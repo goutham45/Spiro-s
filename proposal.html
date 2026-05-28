@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Digital Solutions — Service Proposal</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f4f4;
+    color: #1a1a1a;
+    font-size: 13px;
+  }
+  .page {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    box-shadow: 0 4px 40px rgba(0,0,0,.12);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d0000 60%, #CC0000 100%);
+    padding: 36px 48px 32px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .header-left h1 {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    margin-bottom: 4px;
+  }
+  .header-left p { font-size: 13px; color: rgba(255,255,255,.65); }
+  .header-right { text-align: right; }
+  .header-right .badge {
+    background: #CC0000;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+  .header-right p { font-size: 11px; color: rgba(255,255,255,.5); margin-top: 6px; }
+
+  /* ── BODY ── */
+  .body { padding: 36px 48px 40px; }
+
+  .intro {
+    background: #fdf8f0;
+    border-left: 4px solid #CC0000;
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin-bottom: 28px;
+    font-size: 13px;
+    color: #444;
+    line-height: 1.7;
+  }
+  .intro strong { color: #CC0000; }
+
+  /* ── TIERS ── */
+  .tiers { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 28px; }
+
+  .tier {
+    border: 1.5px solid #e8e8e8;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .tier.popular { border-color: #CC0000; }
+
+  .tier-head {
+    background: #f7f7f7;
+    padding: 14px 16px 12px;
+    border-bottom: 1px solid #eee;
+  }
+  .tier.popular .tier-head { background: #CC0000; color: #fff; }
+
+  .tier-tag {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: #888;
+    margin-bottom: 3px;
+  }
+  .tier.popular .tier-tag { color: rgba(255,255,255,.7); }
+
+  .tier-name {
+    font-size: 15px;
+    font-weight: 800;
+    color: #1a1a1a;
+  }
+  .tier.popular .tier-name { color: #fff; }
+
+  .tier-tagline {
+    font-size: 11px;
+    color: #999;
+    margin-top: 2px;
+  }
+  .tier.popular .tier-tagline { color: rgba(255,255,255,.7); }
+
+  .tier-body { padding: 16px; }
+
+  .price-row { margin-bottom: 12px; }
+  .price-label { font-size: 10px; text-transform: uppercase; letter-spacing: .1em; color: #aaa; font-weight: 600; }
+  .price-val { font-size: 22px; font-weight: 800; color: #1a1a1a; line-height: 1.1; }
+  .price-val span { font-size: 13px; font-weight: 500; color: #888; }
+  .tier.popular .price-val { color: #CC0000; }
+
+  .divider { border: none; border-top: 1px solid #f0f0f0; margin: 12px 0; }
+
+  .feature-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .feature-list li {
+    font-size: 12px;
+    color: #444;
+    display: flex;
+    gap: 7px;
+    align-items: flex-start;
+    line-height: 1.45;
+  }
+  .feature-list li::before {
+    content: '✓';
+    color: #CC0000;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 0px;
+  }
+
+  /* ── OWN IT BOX ── */
+  .ownit {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a0000 100%);
+    border: 2px solid #CC0000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 26px 28px;
+    margin-bottom: 28px;
+    display: grid;
+    grid-template-columns: 1.1fr 1.4fr;
+    gap: 28px;
+    align-items: center;
+  }
+  .ownit-badge {
+    display: inline-block;
+    background: #CC0000;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .ownit-left h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.35;
+    margin-bottom: 10px;
+  }
+  .ownit-left p { font-size: 12px; color: rgba(255,255,255,.55); line-height: 1.7; }
+  .ownit-right {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .ownit-price-block {
+    background: rgba(204,0,0,.15);
+    border: 1px solid rgba(204,0,0,.4);
+    border-radius: 8px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .ownit-label { font-size: 10px; text-transform: uppercase; letter-spacing: .1em; color: rgba(255,255,255,.5); }
+  .ownit-price { font-size: 32px; font-weight: 900; color: #fff; flex: 1; }
+  .ownit-included { font-size: 10px; color: rgba(255,255,255,.4); }
+  .ownit-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .ownit-features li {
+    font-size: 12px;
+    color: rgba(255,255,255,.75);
+    line-height: 1.5;
+  }
+  .ownit-features li strong { color: #fff; }
+
+  /* ── WHAT'S INCLUDED TABLE ── */
+  .compare { width: 100%; border-collapse: collapse; margin-bottom: 28px; font-size: 12px; }
+  .compare th {
+    background: #f7f7f7;
+    padding: 9px 12px;
+    text-align: left;
+    font-weight: 700;
+    color: #1a1a1a;
+    border-bottom: 2px solid #eee;
+  }
+  .compare th:first-child { border-radius: 6px 0 0 0; }
+  .compare th:last-child { border-radius: 0 6px 0 0; }
+  .compare td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #f4f4f4;
+    color: #444;
+    vertical-align: middle;
+  }
+  .compare tr:last-child td { border-bottom: none; }
+  .compare td:not(:first-child) { text-align: center; font-size: 14px; }
+  .yes { color: #22a857; font-weight: 700; }
+  .no  { color: #ccc; }
+  .tier-col { font-weight: 700; color: #CC0000; }
+
+  /* ── ROI BOX ── */
+  .roi {
+    background: linear-gradient(135deg, #fff8f0, #fff0f0);
+    border: 1px solid #f0d8d0;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    text-align: center;
+  }
+  .roi-item p:first-child { font-size: 22px; font-weight: 800; color: #CC0000; }
+  .roi-item p:last-child { font-size: 11px; color: #888; line-height: 1.5; margin-top: 3px; }
+
+  /* ── FOOTER ── */
+  .footer {
+    background: #1a1a1a;
+    padding: 18px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer p { font-size: 11px; color: rgba(255,255,255,.4); }
+  .footer-note {
+    font-size: 11px;
+    color: rgba(255,255,255,.3);
+    text-align: right;
+  }
+
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; margin: 0; border-radius: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <h1>🍽 Restaurant Digital Solutions</h1>
+      <p>Custom websites · Online ordering · Digital growth — built for restaurants</p>
+    </div>
+    <div class="header-right">
+      <div class="badge">Service Proposal</div>
+      <p>Prepared for Spiro's Diner · 2025</p>
+    </div>
+  </div>
+
+  <div class="body">
+
+    <!-- INTRO -->
+    <div class="intro">
+      Your website is currently <strong>down</strong> — every day costs you reservations, online visibility, and revenue.
+      We've already built a fully custom solution tailored to your brand, menu, and location.
+      <strong>We can have you live this week.</strong> Below are three plans depending on what you need.
+    </div>
+
+    <!-- TIERS -->
+    <div class="tiers">
+
+      <!-- TIER 1 -->
+      <div class="tier">
+        <div class="tier-head">
+          <div class="tier-tag">Tier 1</div>
+          <div class="tier-name">Website + Reservations</div>
+          <div class="tier-tagline">Orders sent to email</div>
+        </div>
+        <div class="tier-body">
+          <div class="price-row">
+            <div class="price-label">One-Time Setup</div>
+            <div class="price-val">$4,000</div>
+          </div>
+          <div class="price-row">
+            <div class="price-label">Monthly Maintenance</div>
+            <div class="price-val">$300 <span>/ month</span></div>
+          </div>
+          <hr class="divider">
+          <ul class="feature-list">
+            <li>Full custom website design</li>
+            <li>Your menu — browse &amp; filter</li>
+            <li>Table reservation system</li>
+            <li>Booking confirmations to customer email</li>
+            <li>Instant notification to restaurant</li>
+            <li>Mobile responsive (phone/tablet)</li>
+            <li>Google Maps embedded</li>
+            <li>Domain &amp; hosting setup</li>
+            <li>Monthly content &amp; menu updates</li>
+            <li>Technical support (48hr response)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- TIER 2 (POPULAR) -->
+      <div class="tier popular">
+        <div class="tier-head">
+          <div class="tier-tag">⭐ Most Popular — Tier 2</div>
+          <div class="tier-name">Website + Online Payments</div>
+          <div class="tier-tagline">Customers pay directly on your site</div>
+        </div>
+        <div class="tier-body">
+          <div class="price-row">
+            <div class="price-label">One-Time Setup</div>
+            <div class="price-val">$6,000</div>
+          </div>
+          <div class="price-row">
+            <div class="price-label">Monthly Maintenance</div>
+            <div class="price-val">$600 <span>/ month</span></div>
+          </div>
+          <hr class="divider">
+          <ul class="feature-list">
+            <li>Everything in Tier 1</li>
+            <li>Stripe online payment integration</li>
+            <li>Online ordering system</li>
+            <li>Order management dashboard</li>
+            <li>Customer order confirmation emails</li>
+            <li>No Uber Eats / DoorDash commission</li>
+            <li>Promotions &amp; specials page</li>
+            <li>Newsletter signup &amp; email list</li>
+            <li>Priority support (24hr response)</li>
+            <li>Monthly performance report</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- TIER 3 -->
+      <div class="tier">
+        <div class="tier-head">
+          <div class="tier-tag">Tier 3</div>
+          <div class="tier-name">Full Growth Package</div>
+          <div class="tier-tagline">Website + Payments + Ads + Marketing</div>
+        </div>
+        <div class="tier-body">
+          <div class="price-row">
+            <div class="price-label">One-Time Setup</div>
+            <div class="price-val">$7,000</div>
+          </div>
+          <div class="price-row">
+            <div class="price-label">Monthly Retainer</div>
+            <div class="price-val">$1,000 <span>/ month</span></div>
+          </div>
+          <hr class="divider">
+          <ul class="feature-list">
+            <li>Everything in Tier 2</li>
+            <li>Google Ads management</li>
+            <li>Instagram &amp; Facebook ad campaigns</li>
+            <li>Monthly promotional email blasts</li>
+            <li>Google Business profile management</li>
+            <li>Review monitoring &amp; response</li>
+            <li>SEO optimization (show up in searches)</li>
+            <li>Monthly ad spend reporting</li>
+            <li>Same-day priority support</li>
+            <li>Quarterly strategy call</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- OWN IT BOX -->
+    <div class="ownit">
+      <div class="ownit-left">
+        <div class="ownit-badge">🔑 Complete Ownership Option</div>
+        <h3>You Own Everything.<br>We Teach You How to Run It.</h3>
+        <p>Full handover of the entire website, ordering system, and reservation platform — plus a complete walkthrough so you and your team can manage it confidently from day one. No ongoing fees. No dependency on us. It's yours.</p>
+      </div>
+      <div class="ownit-right">
+        <div class="ownit-price-block">
+          <div class="ownit-label">One-Time Investment</div>
+          <div class="ownit-price">$8,000</div>
+          <div class="ownit-included">Includes everything in Tier 2</div>
+        </div>
+        <ul class="ownit-features">
+          <li>✓ Full source code &amp; files delivered to you</li>
+          <li>✓ Hosting &amp; domain fully in your name</li>
+          <li>✓ 1-on-1 training session — manage your own menu, hours &amp; content</li>
+          <li>✓ Written guide customised to your site</li>
+          <li>✓ <strong>2 months free support</strong> — call or email us anytime</li>
+          <li>✓ After 2 months — completely independent, zero monthly fees</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- COMPARE TABLE -->
+    <table class="compare">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th class="tier-col">Tier 1</th>
+          <th class="tier-col">Tier 2 ⭐</th>
+          <th class="tier-col">Tier 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Custom website + mobile</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Menu display &amp; filtering</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Table reservations + email confirmations</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Online ordering (pay on website)</td><td class="no">✗</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Stripe payment integration</td><td class="no">✗</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Zero delivery commissions</td><td class="no">✗</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Google &amp; social ads management</td><td class="no">✗</td><td class="no">✗</td><td class="yes">✓</td></tr>
+        <tr><td>Monthly marketing emails</td><td class="no">✗</td><td class="no">✗</td><td class="yes">✓</td></tr>
+        <tr><td>SEO &amp; Google Business</td><td class="no">✗</td><td class="no">✗</td><td class="yes">✓</td></tr>
+        <tr><td>Support response time</td><td>48 hrs</td><td>24 hrs</td><td>Same day</td></tr>
+      </tbody>
+    </table>
+
+    <!-- ROI BOX -->
+    <div class="roi">
+      <div class="roi-item">
+        <p>$3,000–5,000</p>
+        <p>Saved per month by eliminating Uber Eats / DoorDash 25–30% commission</p>
+      </div>
+      <div class="roi-item">
+        <p>6 days</p>
+        <p>Time for Tier 2 setup fee to pay for itself through commission savings alone</p>
+      </div>
+      <div class="roi-item">
+        <p>$10,000–18,000</p>
+        <p>What an agency charges for this same custom site — you're saving that today</p>
+      </div>
+    </div>
+
+  </div><!-- /body -->
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>© 2025 Restaurant Digital Solutions &nbsp;·&nbsp; All prices in USD &nbsp;·&nbsp; Month-to-month, no long-term contracts</p>
+    <div class="footer-note">Stripe processing fees (2.9% + $0.30/transaction) apply to Tier 2 &amp; 3 and are charged by Stripe directly.<br>Ad spend budget is separate from the monthly retainer.</div>
+  </div>
+
+</div>
+</body>
+</html>

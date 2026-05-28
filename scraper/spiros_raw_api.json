@@ -1,0 +1,3789 @@
+[
+  {
+    "url": "https://www.ubereats.com/_p/api/getOrderEntitiesV1",
+    "body": {
+      "status": "success",
+      "data": null
+    }
+  },
+  {
+    "url": "https://www.ubereats.com/xp-parameters",
+    "body": {
+      "parameters": {
+        "eats-web-cdex-parameters.enable_address_entry_v2_entry_point": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "enable_address_entry_v2_entry_point",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.store_precheckout_bundling": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_precheckout_bundling",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.eats_web.membership_hero_client_modals_delay_time": {
+          "namespace": "web-eats",
+          "key": "eats_web.membership_hero_client_modals_delay_time",
+          "value": 5,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-eats.nro_phone_collection": {
+          "namespace": "web-eats",
+          "key": "nro_phone_collection",
+          "value": "CONTROL",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJi6PQoFZtT/AdhFQJMUSSfuG2HVfkRCLhvGy1XGP6MzGV+cWjGs9qYRckUqbhXpcithyveSB/6fQ6SvZ0KFkELd08ssKYVTs4arZ6bGH1Jimwai2WjuG3tGs9kIHwh+3cwZ8LDx2q7bxI4p+Vb3PkApP3INjij1d9kydbVix7/:8e3c599df8649ac7befda7564323aefd"
+        },
+        "web-eats.feature.eats_web_shell_feed.react.anchor.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_feed.react.anchor.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.guest_checkout_v2": {
+          "namespace": "web-eats",
+          "key": "guest_checkout_v2",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.product.highlight_pdp_edit_selections_error": {
+          "namespace": "web-eats",
+          "key": "feature.product.highlight_pdp_edit_selections_error",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJq//oDEIFZvBJMGQlVXjXSpG2PU7dUTaZ6KChWSpvL60NEeknsk53XE9Yaq75tlMOvjXvGRmvNUDeih+tpIGU4V35S254zAMZT24KdHDMGyU4+o3Wel1zGI+deDEcl0iw+adr9k3OnRR0+rd5uzOYLs8vGPDq7+9lp05uB8mHnbahvjojgh3wN/x6jz5CA5uFatkIDx/Um1T2ZGc3kZ1J2w+NDw1Gqo9lH5KrT/u/m8m6pYYeP:bafea7a8c25b9542ebeb38973655aefe"
+        },
+        "web-eats.feature.membership_preview_hero_guest_feed": {
+          "namespace": "web-eats",
+          "key": "feature.membership_preview_hero_guest_feed",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_seo.web_eats_eater_top_review": {
+          "namespace": "eats_web_seo",
+          "key": "web_eats_eater_top_review",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "uberdevices.web_fingerprinting_vendors_rollout_xp": {
+          "namespace": "uberdevices",
+          "key": "web_fingerprinting_vendors_rollout_xp",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xlb.friction_batch_2_checkout": {
+          "namespace": "web-eats",
+          "key": "xlb.friction_batch_2_checkout",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.google_one_tap.home_page.mobile_web": {
+          "namespace": "web-eats",
+          "key": "feature.google_one_tap.home_page.mobile_web",
+          "value": "control",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_eater_home_parameters.web_feed_refresh_disclaimer_parity": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_refresh_disclaimer_parity",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "order-gateway.eats_checkout.growth_sporadics.treatment.v3": {
+          "namespace": "order-gateway",
+          "key": "eats_checkout.growth_sporadics.treatment.v3",
+          "value": 3,
+          "valueType": "VALUE_TYPE_FLOAT64",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6z1j5LJ7rpBjdThaD7Aqzsv3tp47lNR5Zd5hFhFQVFXiqTuXDGXKlSXbpmKCtCVbbP60NTVhT9jZ3VE9IQq7kch4L/ziuSCyXOVHnt0eVxMGU4UX4qgJg3TokU2bqhLFRjv0Evqn+dhEfeJ5Q1bHVGvGs1JJTthGauVDkyuN9Z3fsLr9bgPC28koZLgtTexCHnfq90uI/ahEAM+Bi004ed1udsuUUDyv071T3bTY+Nagc9m55dw1Ctpd9d463Q/un77WOyLb+WZvjWiSx61cqYXVrXx86bZaZpMJ8lxsuJwO8MdKPy:5d32784c28033c9244003700cbad0e09"
+        },
+        "web-eats.server.cspBrowserSniff": {
+          "namespace": "web-eats",
+          "key": "server.cspBrowserSniff",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_membership_parameters.eats_pass_invoices": {
+          "namespace": "eats_web_membership_parameters",
+          "key": "eats_pass_invoices",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.web_gifting_personalization_enabled": {
+          "namespace": "web-eats",
+          "key": "feature.web_gifting_personalization_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJq//oDEIFZvBVbFDJHVCeIpWqPZKtYWL1hGTleU77P+0NfS2XskZnWC9oR5+EQh9Cxl2zGUD3JRD77wL8yKnExcGIOnMpoTuV3w66oJkVlu10grW+UhCriX4BkOGkG6283IJzdnWKuQhUnrdRf//MXsoCRAnao2dpkydfc9jTnboNstI32ik0c4Ri924ed1ucRjFc=:0d92f1822a595ed28d47fd067613d85c"
+        },
+        "web-eats.xlb.shopping_cart_image_outline": {
+          "namespace": "web-eats",
+          "key": "xlb.shopping_cart_image_outline",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-payments-experience.features.payment_selection.enable_new_payment_switcher_eats": {
+          "namespace": "web-payments-experience",
+          "key": "features.payment_selection.enable_new_payment_switcher_eats",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.orders.schedule.order.cancel.back": {
+          "namespace": "web-eats",
+          "key": "orders.schedule.order.cancel.back",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.enable_unified_checkout_post_order_tipping_guest": {
+          "namespace": "web-eats",
+          "key": "enable_unified_checkout_post_order_tipping_guest",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_delayed_order_banner": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_delayed_order_banner",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xlb_feed_deeplink_url": {
+          "namespace": "web-eats",
+          "key": "xlb_feed_deeplink_url",
+          "value": "uber://ubereats/feed",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_post_order_parameters.enable_use_location_info_checkout_presentation": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_use_location_info_checkout_presentation",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.checkout-tipping-animation.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.checkout-tipping-animation.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "membership.uber_one.ftux.m2.enabled": {
+          "namespace": "membership",
+          "key": "uber_one.ftux.m2.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.store_gr_pibw_subtitle_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "store_gr_pibw_subtitle_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.store_gr_desktop_virtualization_v2_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "store_gr_desktop_virtualization_v2_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_csr.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_csr.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.lgx.delivery_option_tooltip_max_impression_count": {
+          "namespace": "web-eats",
+          "key": "lgx.delivery_option_tooltip_max_impression_count",
+          "value": 1,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "eats_web_growth.xlb.friction_batch_2_sticky_header": {
+          "namespace": "eats_web_growth",
+          "key": "xlb.friction_batch_2_sticky_header",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_seo.defer_recaptcha": {
+          "namespace": "eats_web_seo",
+          "key": "defer_recaptcha",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-web-cdex-parameters.enable_summary_details_receipt": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "enable_summary_details_receipt",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.canonical_pdp_google_ads_auto_set_address": {
+          "namespace": "web-eats",
+          "key": "canonical_pdp_google_ads_auto_set_address",
+          "value": "NOT_INCLUDED",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eater-messaging.orchid_content_suppression_enabled": {
+          "namespace": "eater-messaging",
+          "key": "orchid_content_suppression_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-web-cdex-parameters.enable_replacement_error_screen_not_found_item": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "enable_replacement_error_screen_not_found_item",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xlb_pull_to_refresh": {
+          "namespace": "web-eats",
+          "key": "xlb_pull_to_refresh",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "u4b_web.healthcare_card_enable": {
+          "namespace": "u4b_web",
+          "key": "healthcare_card_enable",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.pdp.edit_flow_quantity_info_fix": {
+          "namespace": "eats_web_growth",
+          "key": "pdp.edit_flow_quantity_info_fix",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_see_all_translate_disabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_see_all_translate_disabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.fix.flow_default_selected_option": {
+          "namespace": "web-eats",
+          "key": "fix.flow_default_selected_option",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.point_estimate_tooltip_cutoff_date": {
+          "namespace": "web-eats",
+          "key": "point_estimate_tooltip_cutoff_date",
+          "value": 1720656000,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-eats.xlb.feed.dining.mode.adjust": {
+          "namespace": "web-eats",
+          "key": "xlb.feed.dining.mode.adjust",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.nudges.web.enabled": {
+          "namespace": "eats_web_growth",
+          "key": "nudges.web.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.storefront_nup": {
+          "namespace": "web-eats",
+          "key": "feature.storefront_nup",
+          "value": "control",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.fix.order_validation_redirect": {
+          "namespace": "web-eats",
+          "key": "fix.order_validation_redirect",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_web_edit_active_order_delivery_address": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_web_edit_active_order_delivery_address",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_seo.enable_virtualized_list": {
+          "namespace": "eats_web_seo",
+          "key": "enable_virtualized_list",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_restricted_items_pin_hiding_for_alcohol_gifting": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_restricted_items_pin_hiding_for_alcohol_gifting",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.eats_web_recaptcha_xp": {
+          "namespace": "eats_web_growth",
+          "key": "eats_web_recaptcha_xp",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feedmaker_use_virtualise": {
+          "namespace": "web-eats",
+          "key": "feedmaker_use_virtualise",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.guest_checkout_disable_inapp": {
+          "namespace": "web-eats",
+          "key": "feature.guest_checkout_disable_inapp",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.eta_section_info_max_lines": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "eta_section_info_max_lines",
+          "value": 2,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-eats.feature.membership_provider_refactor.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.membership_provider_refactor.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.store_info_phone_number": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_info_phone_number",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_lego.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_lego.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.loyalty_xlb_webview_presidio_query_param_name": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "loyalty_xlb_webview_presidio_query_param_name",
+          "value": "presidio-web-view-enabled",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_platform_parameters.infinite_rpc_guard_mode": {
+          "namespace": "eats_web_platform_parameters",
+          "key": "infinite_rpc_guard_mode",
+          "value": "shadow",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.feature.enable_far_away_tag_banner": {
+          "namespace": "web-eats",
+          "key": "feature.enable_far_away_tag_banner",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.xlb_friction_batch_2_search": {
+          "namespace": "eats_web_growth",
+          "key": "xlb_friction_batch_2_search",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.eats_web_address_precise_location_xp": {
+          "namespace": "eats_web_growth",
+          "key": "eats_web_address_precise_location_xp",
+          "value": "modal",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_platform_parameters.get_user_rq_migration_enabled": {
+          "namespace": "eats_web_platform_parameters",
+          "key": "get_user_rq_migration_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.web_feed_carousel_feed_force_scroll_top_debounce_interval": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_carousel_feed_force_scroll_top_debounce_interval",
+          "value": 50,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "eats_web_shopping_store_parameters.store_quick_add": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_quick_add",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ads_udon_shoppable_display_headline_enabled": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ads_udon_shoppable_display_headline_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.migrate_guest_mode_payments_key": {
+          "namespace": "web-eats",
+          "key": "feature.migrate_guest_mode_payments_key",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_seo.eats_web_cro_dynamic_promo_messaging": {
+          "namespace": "eats_web_seo",
+          "key": "eats_web_cro_dynamic_promo_messaging",
+          "value": "treatment_2",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6z3C1bMZezBDR4k7L1WaLi9nV1uKFVAJJI4T1JEw9/XjOTk2CRVbpQQ61RBypdV6vx4k9DVlvulpbTRZNXs6xehNT/2CuQGCzaRTayjL0MdCZ4Bm0flZ03OMpG6tnXW0d9p006sHSCmE3AIPZTB0YtvHNvZ53uhH6+UQgvrP9TxPMcqM/ONyCE1cVjgoPgiybjeK9DpprnukAP4i6jw52V1OBQjlodwf8h/g+MDs7aZV9x0J5t2w==:6a4229a83319ac8dff4a5b2b41046206"
+        },
+        "web-eats.feature.guest_checkout_m2_treatment": {
+          "namespace": "web-eats",
+          "key": "feature.guest_checkout_m2_treatment",
+          "value": "TREATMENT",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJq//oDEIFZvAVLEx5UYiKUqWeDVK5JdaM8KCxAX6Xa4k9eURil3Y7VC8oQ5/cQpeOYo12pLwfvE3f1lKg/M2EAXWsb29JwOvJ62r6yLUhsrkcsu3KShk+9Do4jK34L8nsiMZ38oGq7VQ4jpd9FwN0LuNGJYw/t1Nlmydre9ivtYLhzpIva1xNPuy6vi6yCi6sf800ay+E6/gGBGN7QbUNr6MoC+UqqovJYuOb93A==:4db2f16515e7d56db55026a3d42727b6"
+        },
+        "web-payments-experience.payments-hub.deployment-config": {
+          "namespace": "web-payments-experience",
+          "key": "payments-hub.deployment-config",
+          "value": "{\"backportFrameContext\":true, \"enableConfigHelper\":true, \"addVariant\": \"new\", \"autoInjectionVariant\": \"new\", \"selectVariant\": \"new\", \"arrearsVariant\": \"new\", \"errorFrameworkVariant\": \"new\"}",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.colorado.tip_title.change.enabled": {
+          "namespace": "web-eats",
+          "key": "colorado.tip_title.change.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_pickup_mobile.use_priority_service_label_for_premium_delivery": {
+          "namespace": "eats_pickup_mobile",
+          "key": "use_priority_service_label_for_premium_delivery",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.guest_checkout.ios_guest_embed_mode": {
+          "namespace": "web-eats",
+          "key": "guest_checkout.ios_guest_embed_mode",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "ordering-presentation.eats_web.nudges.strikethrough_total_price": {
+          "namespace": "ordering-presentation",
+          "key": "eats_web.nudges.strikethrough_total_price",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.orders-hub-web": {
+          "namespace": "web-eats",
+          "key": "orders-hub-web",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xp.cart_alert_gr": {
+          "namespace": "web-eats",
+          "key": "xp.cart_alert_gr",
+          "value": "not_included",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ06rUUBIFIzQNSEx9UYiaO7ijKTbpRX6ssTXpcVbDx5kRTSU/tmpyWS50DpKFHlOWkkmzGUGvtcBeCp5YHH1QRe0gqq6EcK5FLo9mID3BQnnkLikSesHj6ActsK2Ye1Ws6NtqivjCvVQojq9903PkCpc3eLQv9gI4m/9GK9jWwLoFh:17b50aa407ca15e0bf23458e4943d849"
+        },
+        "web-eats.feature.uk_dmcc_disclaimers": {
+          "namespace": "web-eats",
+          "key": "feature.uk_dmcc_disclaimers",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.config.bot-defense.devices.challenge.enabled": {
+          "namespace": "web-eats",
+          "key": "config.bot-defense.devices.challenge.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_seo.city.search.global.rollout": {
+          "namespace": "eats_web_seo",
+          "key": "city.search.global.rollout",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.eats_web_closed_store_handling": {
+          "namespace": "eats_web_growth",
+          "key": "eats_web_closed_store_handling",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.eats_web_experience_type": {
+          "namespace": "eats_web_growth",
+          "key": "eats_web_experience_type",
+          "value": "standard",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_growth.eats_web_auth_nudge_xp": {
+          "namespace": "eats_web_growth",
+          "key": "eats_web_auth_nudge_xp",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6z3C1bMZezBDR4h6X1DPqovzwu8f4OR8ke9wNKBTJXWCOjrXGcU4RTX6ppEgdKSuaCrVxRSU/s3cLSBtMGoOEQh9Cxl2ywEzneE2H1tIgfE0ELcEIuvLcQI/x6rYbBW3RKinQKjlS+rE3nA8dzJ2UP8HoIIIHrxyiQEhkrvMl0w/MMnsDSBjCqxtVzxcrkwSzuaLNppd3YmA==:a2856a85eff3b2f75528b11fc2af0859"
+        },
+        "web-eats.xp.cart_alert_ofd": {
+          "namespace": "web-eats",
+          "key": "xp.cart_alert_ofd",
+          "value": "not_included",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ06rUUBIFIzQNSEx9UYi6aqCbEGa1cRrtrVWIQVKva0ENeRlb8m53QRZNXs6xehNSJm3mBSHOZZxqbt4wMEl0EYUQtrbobIvQU8tfPHGddh20em0W/jXDvFtBoI20E6kUmPIu630npVBk8odlO6/4BrcbELCCQgowilubTmBz0Pv5BrA==:054e4367fb6362a52abf5cba20ad88c0"
+        },
+        "eats-api.direct.tracking_page.authentication_ttl_seconds": {
+          "namespace": "eats-api",
+          "key": "direct.tracking_page.authentication_ttl_seconds",
+          "value": 3600,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-eats.orchid.get_dropoff.migration.enabled": {
+          "namespace": "web-eats",
+          "key": "orchid.get_dropoff.migration.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-payments-experience.features.checkout_actions.action_results_fallback.enabled": {
+          "namespace": "web-payments-experience",
+          "key": "features.checkout_actions.action_results_fallback.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.experiments.eater.messaging.embedded.enabled": {
+          "namespace": "web-eats",
+          "key": "experiments.eater.messaging.embedded.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.store_item_page_cross_sell": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_item_page_cross_sell",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.google_one_tap.home_page": {
+          "namespace": "web-eats",
+          "key": "feature.google_one_tap.home_page",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.banner.membership.upsell.enabled": {
+          "namespace": "eats_web_growth",
+          "key": "banner.membership.upsell.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.store_gr_left_navbar_ads_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "store_gr_left_navbar_ads_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "restricted-items.web_eats.provide_date_of_birth.order_identifiers": {
+          "namespace": "restricted-items",
+          "key": "web_eats.provide_date_of_birth.order_identifiers",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_param_location_sync": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_param_location_sync",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ads_third_party_tracker_retry_limit": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ads_third_party_tracker_retry_limit",
+          "value": 5,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "eats_web_shopping_store_parameters.store_deprecate_fallback_headers": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_deprecate_fallback_headers",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "u4b_web.scheduled_order_editing": {
+          "namespace": "u4b_web",
+          "key": "scheduled_order_editing",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-payments-experience.features.checkout_actions.use_redux_storage": {
+          "namespace": "web-payments-experience",
+          "key": "features.checkout_actions.use_redux_storage",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_interactive_metric_enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_interactive_metric_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.enable_active_order_live_activities": {
+          "namespace": "eats_web_growth",
+          "key": "enable_active_order_live_activities",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.membership_preview_enabled": {
+          "namespace": "web-eats",
+          "key": "membership_preview_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.guest_checkout.enable_tips": {
+          "namespace": "web-eats",
+          "key": "guest_checkout.enable_tips",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.ibotta_desktop_web_enabled": {
+          "namespace": "web-eats",
+          "key": "ibotta_desktop_web_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.eats_web_snap_schedule_orders": {
+          "namespace": "eats_web_growth",
+          "key": "eats_web_snap_schedule_orders",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.checkout_place_order_error_state_fix": {
+          "namespace": "web-eats",
+          "key": "checkout_place_order_error_state_fix",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-payments-experience.features.checkout_actions.eats_ewf.ios_force_popup": {
+          "namespace": "web-payments-experience",
+          "key": "features.checkout_actions.eats_ewf.ios_force_popup",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.order_history_self_tab_opening": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "order_history_self_tab_opening",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "ordering-presentation.op.guest_checkout.unconstrained_domain_user.enabled": {
+          "namespace": "ordering-presentation",
+          "key": "op.guest_checkout.unconstrained_domain_user.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.draft_order_carousel_bug_fix_toggle": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "draft_order_carousel_bug_fix_toggle",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.app_deeplink_session_timeout_v1": {
+          "namespace": "web-eats",
+          "key": "app_deeplink_session_timeout_v1",
+          "value": "{\"universal_link_feed_page\":30}",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_shopping_store_parameters.enable_dynamic_badge_truncation": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "enable_dynamic_badge_truncation",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.store_gr_l2_virtualization_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "store_gr_l2_virtualization_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_seamless_address_change": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_seamless_address_change",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.xlb.friction_batch_3_search": {
+          "namespace": "eats_web_growth",
+          "key": "xlb.friction_batch_3_search",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.enable_nyc_tipping_regulatory_changes": {
+          "namespace": "web-eats",
+          "key": "enable_nyc_tipping_regulatory_changes",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_checkout_experience.place_order_exclude_selected_instructions_args": {
+          "namespace": "eats_web_checkout_experience",
+          "key": "place_order_exclude_selected_instructions_args",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.disable_pull_to_refresh": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "disable_pull_to_refresh",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eatsfeed-citrus.ranking.disclaimer.message_rosetta_key": {
+          "namespace": "eatsfeed-citrus",
+          "key": "ranking.disclaimer.message_rosetta_key",
+          "value": "ads.feed.disclaimer.ny",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.order_tracking.map.enhancements": {
+          "namespace": "web-eats",
+          "key": "order_tracking.map.enhancements",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.validate_draft_order_access": {
+          "namespace": "web-eats",
+          "key": "validate_draft_order_access",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-payments-experience.features.grant.eats_ewf.apple_pay.display_popup": {
+          "namespace": "web-payments-experience",
+          "key": "features.grant.eats_ewf.apple_pay.display_popup",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ad_cx_tier_2_swipe_events_enabled": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ad_cx_tier_2_swipe_events_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.group_ordering_unconstrained_domain_user": {
+          "namespace": "web-eats",
+          "key": "group_ordering_unconstrained_domain_user",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xp.cleanup_cart": {
+          "namespace": "web-eats",
+          "key": "xp.cleanup_cart",
+          "value": "treatment",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ06rUUCZZd/BdOKQ5BTzXe4CaeWrdIT+w0VSxAX6Xa4k9eURil3Y7VC8oQkbRClJPnwF+lJhz+bg+OsowMFVAGbVU525V+TtZA7peYGGVZj10Hn0WpoWX6HdZKK3EZvDQYZ5v0gHOlRQwVpc9HwP8xosPZLXaSzQ==:90582ced801b0305b57586ce0fe83b77"
+        },
+        "eats_web_cro_parameters.menu_item_rating": {
+          "namespace": "eats_web_cro_parameters",
+          "key": "menu_item_rating",
+          "value": "treatment_1",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_shopping_store_parameters.deals_hub_m2": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "deals_hub_m2",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.marketing.boga_catalog_section_uuid": {
+          "namespace": "web-eats",
+          "key": "marketing.boga_catalog_section_uuid",
+          "value": "12760907-5d9c-4c77-be7a-8885910e1a45",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_gr_shopping_store_parameters.store_gr_mobile_virtualization_v2_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "store_gr_mobile_virtualization_v2_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-web-cdex-parameters.enable_web_live_order_editing_ramen_push": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "enable_web_live_order_editing_ramen_push",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.storefront_opens_in_new_tab": {
+          "namespace": "web-eats",
+          "key": "storefront_opens_in_new_tab",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_cro_parameters.cow_disable_integration_test_users": {
+          "namespace": "eats_web_cro_parameters",
+          "key": "cow_disable_integration_test_users",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.matchbox.skip_query_param_if_bundle": {
+          "namespace": "web-eats",
+          "key": "matchbox.skip_query_param_if_bundle",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.eats_web.membership_hero_disable_preview_ramen": {
+          "namespace": "web-eats",
+          "key": "eats_web.membership_hero_disable_preview_ramen",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.store_gr_left_navbar_pdp_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "store_gr_left_navbar_pdp_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.store_force_scroll_to_top": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_force_scroll_to_top",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_localstorage_event_storage_disabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_localstorage_event_storage_disabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-payments-experience.features.payment_selection.static_message_allowed_token_types": {
+          "namespace": "web-payments-experience",
+          "key": "features.payment_selection.static_message_allowed_token_types",
+          "value": "",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "u4b_web.enable_repeat_group_order_creation": {
+          "namespace": "u4b_web",
+          "key": "enable_repeat_group_order_creation",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "restricted-items.crf.substitution_picker_empty_screen.enabled": {
+          "namespace": "restricted-items",
+          "key": "crf.substitution_picker_empty_screen.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_dropoff_option_education": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_dropoff_option_education",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.quickview_on_thumbnail": {
+          "namespace": "web-eats",
+          "key": "quickview_on_thumbnail",
+          "value": "TREATMENT",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ97/IUDoVV9xVhGQN/SSmJoWaGWrJRCOIsATleT6GMtQhkd3/Iq7XxKetX6e9EkN2oh12dGiyZC3mBo4UGA1sAfUs7prsGPvp4yNmQVTNZnXkTmkGvrWzaC9JkPGEH+2A3Dp3hljDxa14urcxC1/Mxqc3HPTu6xOMikIuN9iuzU6ou86L4:7de3df743e63e3dbd46ce92d0ea0122e"
+        },
+        "web-eats.feature.remove_get_draft_order_by_uuid_v1_references": {
+          "namespace": "web-eats",
+          "key": "feature.remove_get_draft_order_by_uuid_v1_references",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-api.eatsapi.web.quick_add_items_carousel_feed_item_adapter.enabled": {
+          "namespace": "eats-api",
+          "key": "eatsapi.web.quick_add_items_carousel_feed_item_adapter.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feed.empty.feed.burst.cache": {
+          "namespace": "web-eats",
+          "key": "feed.empty.feed.burst.cache",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xlb.checkout.edit.schedule.beforeunload.alert.dismiss": {
+          "namespace": "web-eats",
+          "key": "xlb.checkout.edit.schedule.beforeunload.alert.dismiss",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.carousel.restore_scroll.enabled": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "carousel.restore_scroll.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.cart.unified_cmp_payloads_enabled": {
+          "namespace": "web-eats",
+          "key": "feature.cart.unified_cmp_payloads_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.xlb.friction_batch_2_homefeed": {
+          "namespace": "eats_web_growth",
+          "key": "xlb.friction_batch_2_homefeed",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_neutral_zone": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_neutral_zone",
+          "value": 6000,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-eats.xlb.checkout.error.dismiss": {
+          "namespace": "web-eats",
+          "key": "xlb.checkout.error.dismiss",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ads_track_event_user_agent_enabled": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ads_track_event_user_agent_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "u4b_web.group_order_share_sheet_redesign": {
+          "namespace": "u4b_web",
+          "key": "group_order_share_sheet_redesign",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.fix.xlb_bundle_group_uuid_stale_closure": {
+          "namespace": "web-eats",
+          "key": "fix.xlb_bundle_group_uuid_stale_closure",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.store.preload_store_hero_image": {
+          "namespace": "web-eats",
+          "key": "feature.store.preload_store_hero_image",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ad_cx_udon_brand_page_enabled": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ad_cx_udon_brand_page_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.debounced_navigate_threshold": {
+          "namespace": "web-eats",
+          "key": "debounced_navigate_threshold",
+          "value": 0,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "eats_web_eater_home_parameters.web_feed_clear_search_feed_cache": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_clear_search_feed_cache",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.promo_revamp_savings_mock": {
+          "namespace": "web-eats",
+          "key": "promo_revamp_savings_mock",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ads_off_platform_skip_click_id_check": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ads_off_platform_skip_click_id_check",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.store_explore_more_stores_m1": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_explore_more_stores_m1",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6z3C1bMZezBDR4k7/1C/6p83dT6e8YF5Zj4gNMFwBFSSSOvybEGbBYU+w0VStGVbbL0E9IVVbmjZ3rCtAHoJJBhd6vh3q7B3iZHXmhg6UmIyZuQnoSio1+TsVX446ILWhMjjpFzXaahF3aLPZYHk013EEMCdrlyTCuRh0mvdtf0fIrudLOKz2i1dJk69zC2mG4V/55sIv2ulQY7y6iwoOY1vtWjkcA3PcR0haGD9jIXVsu6NRfylmgtdkMp+bFwP7n33a+IYWXQevblCpA6c+STFTnwc6rfq1uCoBnkP+A:0665171735752172c445afcece38af19"
+        },
+        "eats-web-cdex-parameters.enable_item_availability_experiment": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "enable_item_availability_experiment",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "membership.uber_one.premium_tier.eligibility": {
+          "namespace": "membership",
+          "key": "uber_one.premium_tier.eligibility",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_mechanics_parameters.eats_web_cart_edit_item_quick_view": {
+          "namespace": "eats_web_shopping_mechanics_parameters",
+          "key": "eats_web_cart_edit_item_quick_view",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.ip_based_feed_xp_enabled": {
+          "namespace": "web-eats",
+          "key": "ip_based_feed_xp_enabled",
+          "value": "not_included",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJl6sQVBIBZ9j1YEwhEYjmMk2GGWrlRT6osW3pEW6jb6ggKB1Tmi6fdCdwZsKlXlZPxwH+FBjzeZSKnh+tpZFIVaE47prwLPPZp3K+/MF97yWVTzUWtqWTqEtZkKk0S7msxLJX9i2aAVQU56oBwlvILt8vIPAun39B0z8zP9nGyPupDuc7akxFf0Aw=:51b3fcb4a18e7a381f8d0a2b067e7e6e"
+        },
+        "web-eats.desktop.home_feed_performance_enhancements": {
+          "namespace": "web-eats",
+          "key": "desktop.home_feed_performance_enhancements",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "restricted-items.feature.loe_x_ri_web.enabled": {
+          "namespace": "restricted-items",
+          "key": "feature.loe_x_ri_web.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_cro_parameters.rename_reviews_section": {
+          "namespace": "eats_web_cro_parameters",
+          "key": "rename_reviews_section",
+          "value": "control",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_ads_platform_web.ads_third_party_tracker_retry_delay_ms": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ads_third_party_tracker_retry_delay_ms",
+          "value": 2000,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-eats.desktop.use_is_client_render_context_enabled": {
+          "namespace": "web-eats",
+          "key": "desktop.use_is_client_render_context_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "u4b_web.group_order_autosubmit_pick_another_time_xp": {
+          "namespace": "u4b_web",
+          "key": "group_order_autosubmit_pick_another_time_xp",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_platform_parameters.speculative_bundle_loader": {
+          "namespace": "eats_web_platform_parameters",
+          "key": "speculative_bundle_loader",
+          "value": "store, search",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.feature.enable_auth_locale_code": {
+          "namespace": "web-eats",
+          "key": "feature.enable_auth_locale_code",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-web-cdex-parameters.enable_summary_details_chat_entry_point": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "enable_summary_details_chat_entry_point",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.eats_use_last_selected_profile": {
+          "namespace": "web-eats",
+          "key": "eats_use_last_selected_profile",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-payments-experience.features.checkout_actions.missing_results_guard.enabled": {
+          "namespace": "web-payments-experience",
+          "key": "features.checkout_actions.missing_results_guard.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.saved_customizations": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "saved_customizations",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.server.cspEnableHtmlMeta": {
+          "namespace": "web-eats",
+          "key": "server.cspEnableHtmlMeta",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "u4b_web.meal_plan": {
+          "namespace": "u4b_web",
+          "key": "meal_plan",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_preload_bridge_ads_click_enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_preload_bridge_ads_click_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.guest_checkout.web_guest_embed_mode": {
+          "namespace": "web-eats",
+          "key": "guest_checkout.web_guest_embed_mode",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.storefront_unavailable_merchant": {
+          "namespace": "web-eats",
+          "key": "storefront_unavailable_merchant",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ/7vQFAJVO/QxKKRhOXDedpWiJWbdYdaNrBTtaW6rarQYSU1vlip2WXdkUqb5X3ZOrg2WRDx3CQT712OsFB0gBYUQqoLgXM/F5wLfPBD0ejm4eg1W6vG37NtpxK3oD82stMbP9nGHpCidordtfx8kZpMD0NDG909Rxzs3k3C30bbVwsJ3pgHwLvlOaxw==:ee3f3f9a6140bbf8650fb0a2ab36785a"
+        },
+        "eater-messaging.eats_web_cart_display_total_promotion_enabled": {
+          "namespace": "eater-messaging",
+          "key": "eats_web_cart_display_total_promotion_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xp.location_system_dialogue_for_home": {
+          "namespace": "web-eats",
+          "key": "xp.location_system_dialogue_for_home",
+          "value": "not_included",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ06rUbCpBd5gtRGDJTRDKIqWm3X7JcRqFpAj1tXKvc0EJfSF+r09rCBtMAoO8I09+yllaNBCrXRD+yhut/ZHI1SG4brZEiCZEMra2sNUR5tEwmv2WEm1zNOuxGbHVGvGs1JJTthGauVDkyuN9Z3fsLr9bgPC28koZLgt3e3yrhaYN0vpPhilYJ0kP3iMWr0bhspxhN8+8=:06842492017d7f1dc6c4c08ab2d18fc1"
+        },
+        "eats_web_growth.eats_web_combined_auth_pickup_closed_store_xp": {
+          "namespace": "eats_web_growth",
+          "key": "eats_web_combined_auth_pickup_closed_store_xp",
+          "value": "",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_gr_shopping_store_parameters.store_gr_schedule_cart_action_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "store_gr_schedule_cart_action_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.web_feed_carousel_icon_removal": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_carousel_icon_removal",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xlb_omit_beacon_emission": {
+          "namespace": "web-eats",
+          "key": "xlb_omit_beacon_emission",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "u4b_web.handled_high_capacity_orders": {
+          "namespace": "u4b_web",
+          "key": "handled_high_capacity_orders",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.gr_basket_dependent_fees": {
+          "namespace": "eats_web_growth",
+          "key": "gr_basket_dependent_fees",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-web-cdex-parameters.enable_address_picker_revamp": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "enable_address_picker_revamp",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-web-cdex-parameters.should_hide_shopping_list_from_loe": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "should_hide_shopping_list_from_loe",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "u4b_web.post_purchase_profile_reinforcement": {
+          "namespace": "u4b_web",
+          "key": "post_purchase_profile_reinforcement",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-web-cdex-parameters.enable_web_live_order_editing": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "enable_web_live_order_editing",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.lgx.should_sync_checkout_presentation_to_user_state": {
+          "namespace": "web-eats",
+          "key": "lgx.should_sync_checkout_presentation_to_user_state",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.web_vertical_feed_refresh_disclaimer_parity": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_vertical_feed_refresh_disclaimer_parity",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eatsfeed-citrus.ranking.disclaimer.enabled": {
+          "namespace": "eatsfeed-citrus",
+          "key": "ranking.disclaimer.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.promotion_feed_refresh.enabled": {
+          "namespace": "web-eats",
+          "key": "promotion_feed_refresh.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "order-gateway.membership_cart_banner": {
+          "namespace": "order-gateway",
+          "key": "membership_cart_banner",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6z1j5LJ7rpBjdThaD7Aqzsv3tp47lNR55Z/wBbBB5IVDGjr2WaT4RfS6BgEioQFubY7kZFQBizi4rBApNXs6xehNSJm3mBSHOZZxqbt4wMEl0EYUQ8tqceTs4arZ6bGH1Jimwai2WjuG3tGs9kIHwh+3cwZ8LDx3+uXR4vuslD3eYxos3GOz2h1dhPw9jJ3RzhZLl/upDwkXwU4wWiyICA0P1asEZNgrAjxA+LGM/Ial9v6N1T10ims8Ra4qvO/uL77GW0Nq6tC6uFzTAUlP+A:fdca4dc5f9df4dca66c98875daff421d"
+        },
+        "eats_web_shopping_store_parameters.eats_web_store_pcb_be_driven_limit_reached": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "eats_web_store_pcb_be_driven_limit_reached",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.embedded.allowlist_webview_event_tracking_enabled": {
+          "namespace": "web-eats",
+          "key": "embedded.allowlist_webview_event_tracking_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-payments-experience.features.checkout_actions.cancel_order.is_enabled": {
+          "namespace": "web-payments-experience",
+          "key": "features.checkout_actions.cancel_order.is_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.theme.dark.rollout": {
+          "namespace": "web-eats",
+          "key": "theme.dark.rollout",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.store_carousel_infinite_paginated_scroll": {
+          "namespace": "web-eats",
+          "key": "store_carousel_infinite_paginated_scroll",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xp.simplified_storefront_for_guest_users": {
+          "namespace": "web-eats",
+          "key": "xp.simplified_storefront_for_guest_users",
+          "value": "not_included",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ06rUEDJ5M/gtYHwhEYjKIo3aNXalSRLpRETdAZaPb6llEek/6morHRZNXs6xehNT/2CuKBT3kWDW0jrw3I2B2CDkImIQnCedP/57PQzNqqlQqqn+PkVjaLPFVHEEk2Sw+adr9k3OnRR0+rd5uzOYLs8vGPDq7+9lp05uB8mH6fINvuJL1iUob5BSj5YCA1vtWjksBys0+yAGCCM3kb1l70p4chFmqtsRN7pvIzubw73SvHOjCC63ok2l6wJDfY0w=:193f462f5afa0e348be738af39949d91"
+        },
+        "eats_web_checkout_experience.delete_do_redux": {
+          "namespace": "eats_web_checkout_experience",
+          "key": "delete_do_redux",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.store_gr_desktop_header_redesign": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_gr_desktop_header_redesign",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.loyalty_payment_switcher_timeout_ms": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "loyalty_payment_switcher_timeout_ms",
+          "value": 10000,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-eats.feature.total_price_cart_pill": {
+          "namespace": "web-eats",
+          "key": "feature.total_price_cart_pill",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.product_details.semantic_urls.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.product_details.semantic_urls.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eatsfeed-citrus.ranking.disclaimer.message_fallback": {
+          "namespace": "eatsfeed-citrus",
+          "key": "ranking.disclaimer.message_fallback",
+          "value": "This price was set by an algorithm using your personal data. Your location is used to help us calculate fees and savings. Uber is paid by merchants for marketing and promotion, which influences the personalized recommendations you see. Learn more or change settings.",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_platform_parameters.infinite_rpc_guard_threshold": {
+          "namespace": "eats_web_platform_parameters",
+          "key": "infinite_rpc_guard_threshold",
+          "value": 100,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-payments-experience.features.payment_selection.get_cmp_selection_state_enabled": {
+          "namespace": "web-payments-experience",
+          "key": "features.payment_selection.get_cmp_selection_state_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.web_feed_refresh_footer_width": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_refresh_footer_width",
+          "value": "global",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-payments-experience.features.payment_selection.enable_meal_vouchers": {
+          "namespace": "web-payments-experience",
+          "key": "features.payment_selection.enable_meal_vouchers",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_cro_parameters.i18.components.feed_enter_address.heading.variant1": {
+          "namespace": "eats_web_cro_parameters",
+          "key": "i18.components.feed_enter_address.heading.variant1",
+          "value": "default",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_ads_platform_web.ads_third_party_tracker_enabled": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ads_third_party_tracker_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.features.drafting_cart_switcher": {
+          "namespace": "eats_web_growth",
+          "key": "features.drafting_cart_switcher",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6z3C1bMZezBDR4h6X1DPqovzwu8f4OR8ke9AdfAhhSWDLSqHaJXa9URKlRFDlATpvd+ENERlLsjdqYRckUqbhX04upkHyBRmvNUDeih50qNmF2HjkouKQHKexi1quoJlNzpFRdkgz5rX7+H9dgOm0O23YzIIrxiHelRDcvsckJjs1MpMPfKgu41d5PwsDkzSb0Zb95oqDtik8Z4gSzmK6J:7c77adf095d13e0c6ffedb95c97aea70"
+        },
+        "eats_web_shopping_store_parameters.store_scheduled_order_navigation_enhancements_enabled": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_scheduled_order_navigation_enhancements_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.germany_cancellation_flow_refresh.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.germany_cancellation_flow_refresh.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ads_third_party_tracker_timeout_ms": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ads_third_party_tracker_timeout_ms",
+          "value": 5000,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "eats_web_shopping_store_parameters.store_catalog_section_raw_title_text_enabled": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_catalog_section_raw_title_text_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.address_click_history_pop": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "address_click_history_pop",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.google_one_tap.addressed_feed": {
+          "namespace": "web-eats",
+          "key": "feature.google_one_tap.addressed_feed",
+          "value": "treatment",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJq//oDEIFZvAVRGQpMWB6TomG3T7pNBK9qEypXSbfL63VWQF/t3dSWEd4ZsKgQy5OpkGyFHiTeXy/1zuslJ2ghQU8HiY1wVpFgzre4PE5oskg6sHOPmkHRNIB8YioP6G8vMJnsgHaOSAwvutNG0fgaisfSKnb16550xc/SyibdZLNwtZDwkXxPvUPx5ZvF5v8B83cS:5fb1b7afb7b7bc9244cf98c967fa613d"
+        },
+        "eats_web_eater_home_parameters.web_feed_carousel_feed_force_scroll_top": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_carousel_feed_force_scroll_top",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.hide_inactive_store_ctas": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "hide_inactive_store_ctas",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.membership_premium_tier_hero.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.membership_premium_tier_hero.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.web_risk_denial": {
+          "namespace": "web-eats",
+          "key": "web_risk_denial",
+          "value": "CONTROL",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ7//koF5pP+T1aEwNJXC3e4CaeWrdIT+w0VRt9dJD8wGYSCRj/npTBAusMtagQy5OLo0WxLxbvaAuSvZoHFE0aYzkD1co3GtJa+pqZHHV5k2ganUm2rWbrOMd4PSpQxSw7NafvgHCUQhU5o+VP0fgHoM6JBCk=:045e0c88805a5e30ab71bf770ef76518"
+        },
+        "eats_web_growth.pdp.customization_min_max_fix": {
+          "namespace": "eats_web_growth",
+          "key": "pdp.customization_min_max_fix",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_platform_parameters.error_impression_logging": {
+          "namespace": "eats_web_platform_parameters",
+          "key": "error_impression_logging",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.2fa_redirect_ramen": {
+          "namespace": "eats_web_growth",
+          "key": "2fa_redirect_ramen",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "restricted-items.wpe.uber_cash_eligibility.enabled": {
+          "namespace": "restricted-items",
+          "key": "wpe.uber_cash_eligibility.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.store.performance_enhancements": {
+          "namespace": "web-eats",
+          "key": "feature.store.performance_enhancements",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.xlb_friction_batch_gr": {
+          "namespace": "eats_web_growth",
+          "key": "xlb_friction_batch_gr",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.pdp_customizations_cta_text": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "pdp_customizations_cta_text",
+          "value": "default",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_cro_parameters.reviews_above_the_fold": {
+          "namespace": "eats_web_cro_parameters",
+          "key": "reviews_above_the_fold",
+          "value": "flipr_default",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_gr_shopping_store_parameters.gr_is_loyalty_upsell_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "gr_is_loyalty_upsell_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.eats_web_flawless_dropodd_xp": {
+          "namespace": "eats_web_growth",
+          "key": "eats_web_flawless_dropodd_xp",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6z3C1bMZezBDR4h6X1DPqovzwu8f4OR8ke9wNKBTJXWCOjqmiJTLdYWb1REypdSqvK63VIVRil3Y7VC8oQ5/dGg8S4ziuSCyXOVA+ukqxxfCYCZVcrvLcGNeNz0LmiNl0eljRdila6pH3+B8dlC3Aa+3wqKJ32kVmuSQ9o8uEJ0fcasv3cPDaQ0sVPxNzNwCDnf4N0vpPhilYJryy6:d7fdc5ef83efaeac6e178318ee47b95c"
+        },
+        "eats_web_shopping_parameters.eats_web_project_perfect_pickup_pins": {
+          "namespace": "eats_web_shopping_parameters",
+          "key": "eats_web_project_perfect_pickup_pins",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6z3C1bMZezBDR4k7/1C/6p83dT6voFBJ5Z5gdMBU8MHyqZtSbSGb5cXr1RAD1QZbTc4EBVRk7Wj53GAdoWsZJCmNK2l3m7GiDVQnn7wL8yKnExBiEYmIQhCZ8U+ZqBDHRokmgazRr5nknTJudeGlE621EBCrfUx2/nEhk8qdZe1eILpefTKTG92dF1zs3wzDrxLuZH85rkkVAi+hSl5YOG1uNWsl4w3vc8xweKCeLLa1V0wsxv1lShs49z9g==:5d86d172a7b124c787f89796a7c4c857"
+        },
+        "web-eats.feature.retro.proxy.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.retro.proxy.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ads_off_platform_attribution_enabled": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ads_off_platform_attribution_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xp.system_dialogue_for_storefront": {
+          "namespace": "web-eats",
+          "key": "xp.system_dialogue_for_storefront",
+          "value": "not_included",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ06rUEHIBI9w9hEgRBUS6buWG3XbRPdb16GCpXXLbB4V4SCRj/npTBAp1P56Ndhe60jGqIHy3eVXn7wL8yKnExcGIOnMpoTuV3w66oJkVlu10gvHSJgUbYUd8tbG0c/2I2JIz9gVezQBk4oddO2uIlpNvYe26Ukth11tDYzBzqY7B4vorxuhFNv0eY0sKrz7sRjFc=:753841a55a3685211a2bdaa51b7944d9"
+        },
+        "web-eats.feature.group_order_dining_mode_fix": {
+          "namespace": "web-eats",
+          "key": "feature.group_order_dining_mode_fix",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.nvgr_big3_step2_bifurcation": {
+          "namespace": "web-eats",
+          "key": "nvgr_big3_step2_bifurcation",
+          "value": 0,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-eats.enable_matchbox_query_param_persistence": {
+          "namespace": "web-eats",
+          "key": "enable_matchbox_query_param_persistence",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_feed_reload.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_feed_reload.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-web-cdex-parameters.should_hide_add_items_in_checkout_for_gr_scheduled": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "should_hide_add_items_in_checkout_for_gr_scheduled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_feed.ptr.revamp.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_feed.ptr.revamp.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.canonical_pdp_ui": {
+          "namespace": "web-eats",
+          "key": "canonical_pdp_ui",
+          "value": "TREATMENT",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJv+/UYC5pf8w5hBglQYjSV7ijKTbpRX6ssTXpmaIHv22d1a26r09rCBtMAoJlLgdT/2CuyKwXudASDu5kWGVcAdlIwvsovQJFT+ZqBDHBIjnw6l1C+umHyFsx1BW0T7Sx5HtrglU2oURIlptNI1foxscbbBiGmkuFt:2a8bef9eb47735bf1280cad84dfe23af"
+        },
+        "web-eats.feature.google_one_tap.other_pages.desktop": {
+          "namespace": "web-eats",
+          "key": "feature.google_one_tap.other_pages.desktop",
+          "value": "control",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats-web-cdex-parameters.enable_replacements_overhaul_m2": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "enable_replacements_overhaul_m2",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_seo.address_entry_optimization": {
+          "namespace": "eats_web_seo",
+          "key": "address_entry_optimization",
+          "value": "fallback",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.carousel_navigation_back_to_feed_button": {
+          "namespace": "web-eats",
+          "key": "carousel_navigation_back_to_feed_button",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-payments-experience.features.pre_checkout_actions.managed_business.is_enabled": {
+          "namespace": "web-payments-experience",
+          "key": "features.pre_checkout_actions.managed_business.is_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "order-gateway.eats.gift_shop.m1.recipient.enabled": {
+          "namespace": "order-gateway",
+          "key": "eats.gift_shop.m1.recipient.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xlb.checkout.presentation.error.handle": {
+          "namespace": "web-eats",
+          "key": "xlb.checkout.presentation.error.handle",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.eats_web_store_shopping_list": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "eats_web_store_shopping_list",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.loyalty_xlb_webview_close_button_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "loyalty_xlb_webview_close_button_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.rwg_conversion_enabled": {
+          "namespace": "web-eats",
+          "key": "rwg_conversion_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-api.eatsapi.store.location_icon_enable": {
+          "namespace": "eats-api",
+          "key": "eatsapi.store.location_icon_enable",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.enable_cart_abstraction_refactor": {
+          "namespace": "web-eats",
+          "key": "feature.enable_cart_abstraction_refactor",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xlb.typeahead_ensure_full_width_input": {
+          "namespace": "web-eats",
+          "key": "xlb.typeahead_ensure_full_width_input",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_platform_parameters.seo_core_store_page_split": {
+          "namespace": "eats_web_platform_parameters",
+          "key": "seo_core_store_page_split",
+          "value": "disabled",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.feature.retro.proxy_cart.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.retro.proxy_cart.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_mechanics_parameters.deprecate_shopping_cart_currency_code": {
+          "namespace": "eats_web_shopping_mechanics_parameters",
+          "key": "deprecate_shopping_cart_currency_code",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.store_gr_enable_reviews_modal": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_gr_enable_reviews_modal",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.xlb.friction_batch_2_store": {
+          "namespace": "eats_web_growth",
+          "key": "xlb.friction_batch_2_store",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xlb_launch_deeplink_bridge_event_enabled": {
+          "namespace": "web-eats",
+          "key": "xlb_launch_deeplink_bridge_event_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "guest-gateway.guest_checkout.eats_app.guest_mode.enabled": {
+          "namespace": "guest-gateway",
+          "key": "guest_checkout.eats_app.guest_mode.enabled",
+          "value": "control",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "u4b_web.repeat_group_order": {
+          "namespace": "u4b_web",
+          "key": "repeat_group_order",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_hide_help_action_for_gift_order": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_hide_help_action_for_gift_order",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_cookies_change_reload": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_cookies_change_reload",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.enable_xlb_navigation_interceptor": {
+          "namespace": "web-eats",
+          "key": "enable_xlb_navigation_interceptor",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "restricted-items.feature.loe_x_ri_web_providers.enabled": {
+          "namespace": "restricted-items",
+          "key": "feature.loe_x_ri_web_providers.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.fix_max_item_cap_callout_and_quantity_selector": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "fix_max_item_cap_callout_and_quantity_selector",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "u4b_web.meal_plan_creation": {
+          "namespace": "u4b_web",
+          "key": "meal_plan_creation",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.checkout.filter_total_from_breakdown": {
+          "namespace": "web-eats",
+          "key": "checkout.filter_total_from_breakdown",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_ads_click_direct_emit.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_ads_click_direct_emit.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.loyalty_payment_hub_checkout_actions_timeout_ms": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "loyalty_payment_hub_checkout_actions_timeout_ms",
+          "value": 60000,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-eats.feature.eats_web_shell_error_trace_enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_error_trace_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.fix.create_guest_payment_profile_v1_validation": {
+          "namespace": "web-eats",
+          "key": "fix.create_guest_payment_profile_v1_validation",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eatsfeed-citrus.eater.carousel_fwd.enabled": {
+          "namespace": "eatsfeed-citrus",
+          "key": "eater.carousel_fwd.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.xlb_feed_to_store_scroll_top_debounce_threshold": {
+          "namespace": "eats_web_growth",
+          "key": "xlb_feed_to_store_scroll_top_debounce_threshold",
+          "value": 0,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "web-eats.feature.membership_checkout_screen_v2.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.membership_checkout_screen_v2.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xlb.checkout.tip.wrapper.height": {
+          "namespace": "web-eats",
+          "key": "xlb.checkout.tip.wrapper.height",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.desktop.storefront_performance_enhancements": {
+          "namespace": "web-eats",
+          "key": "desktop.storefront_performance_enhancements",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_seo.guest_checkout.chat.enabled": {
+          "namespace": "eats_web_seo",
+          "key": "guest_checkout.chat.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_seo.eats_web_seo_city_card_content_user_xp": {
+          "namespace": "eats_web_seo",
+          "key": "eats_web_seo_city_card_content_user_xp",
+          "value": "control",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.xp.enable_mode_toggle_for_unaddressed_users": {
+          "namespace": "web-eats",
+          "key": "xp.enable_mode_toggle_for_unaddressed_users",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.retro.proxy_cart_regular.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.retro.proxy_cart_regular.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.seo.store_card_redesign.enabled": {
+          "namespace": "web-eats",
+          "key": "seo.store_card_redesign.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.eats_web.gr_friction_storefront_xp": {
+          "namespace": "web-eats",
+          "key": "eats_web.gr_friction_storefront_xp",
+          "value": "",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_voice_parameters.enable_top_eats_landing_page": {
+          "namespace": "eats_web_voice_parameters",
+          "key": "enable_top_eats_landing_page",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.web_feed_refresh_desktop_store_hero_image_height": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_refresh_desktop_store_hero_image_height",
+          "value": 130,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "eats_web_platform_parameters.infinite_rpc_guard_window_ms": {
+          "namespace": "eats_web_platform_parameters",
+          "key": "infinite_rpc_guard_window_ms",
+          "value": 1000,
+          "valueType": "VALUE_TYPE_FLOAT64"
+        },
+        "eats-api.eatsapi.offer.color": {
+          "namespace": "eats-api",
+          "key": "eatsapi.offer.color",
+          "value": "happy_red",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.pdp.customization_footer_price_fix": {
+          "namespace": "web-eats",
+          "key": "pdp.customization_footer_price_fix",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_membership_parameters.membership_cancellation_flow": {
+          "namespace": "eats_web_membership_parameters",
+          "key": "membership_cancellation_flow",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_hide_chat_action_for_gift_order": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_hide_chat_action_for_gift_order",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.store_gr_l1_pagination_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "store_gr_l1_pagination_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.retro.proxy_pdp.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.retro.proxy_pdp.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xp.simplified_store_and_pickup_mode": {
+          "namespace": "web-eats",
+          "key": "xp.simplified_store_and_pickup_mode",
+          "value": "pickup_mode_toggle",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ06rUEDJ5M/gtYHwhEYjKIo3aNZLpTTpF+HjtZT7Tx4kVUQBil3Y7VC8oQ5/cQgdi+iXyUNSTUVT6IlqY0IWgxBjdcj4k+GdZi9ouIWysevVkzumWEnFHPNv1SGloj0ElhONS6gGSqXAkrvN9P8e4epNDCNDGhxPd12cqZkxigdKxDopbolU8U6xii3qyHzeZBtHUOwPYR0QuKFsjLXVtw09kSih+rpdtH6KH/yeX45G6uN4XACamBpDAU6dTPHGzF:865d39e8aa8be8853409da9b8aa14629"
+        },
+        "web-eats.web_eats_enable_guest_rating": {
+          "namespace": "web-eats",
+          "key": "web_eats_enable_guest_rating",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.web_addons.mobile.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.web_addons.mobile.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJq//oDEIFZvBVbFDJBWSWTonfGVrRfQ6JrWT1cW6bC6k4SCRj/npTBAp1Psb9HlJ3/lGiIHyzvSCuywPNxEEUYcV4hrbECKex0wLShW2wQyX0JjkyuqXz6F+d5Pm0Y92MmK4zTgGu4EkYR6t9KwOUxtsfJBja279h11tDYzDDdZLNwtZDwkQEg8A==:fc17a126e2c537df289a770260181db3"
+        },
+        "restricted-items.web_eats.uber_cash_eligibility.uber_balances_pp.enabled": {
+          "namespace": "restricted-items",
+          "key": "web_eats.uber_cash_eligibility.uber_balances_pp.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.config.bot-defense.challenge.enabled": {
+          "namespace": "web-eats",
+          "key": "config.bot-defense.challenge.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.features.eats_web_checkout_state_cleanup": {
+          "namespace": "eats_web_growth",
+          "key": "features.eats_web_checkout_state_cleanup",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.theme.override": {
+          "namespace": "web-eats",
+          "key": "theme.override",
+          "value": "",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_checkout_experience.checkout_overhead_disclaimer_fallback_enabled": {
+          "namespace": "eats_web_checkout_experience",
+          "key": "checkout_overhead_disclaimer_fallback_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.google_one_tap.other_pages.mobile": {
+          "namespace": "web-eats",
+          "key": "feature.google_one_tap.other_pages.mobile",
+          "value": "control",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.multicart_draft_order_uuid_param": {
+          "namespace": "web-eats",
+          "key": "multicart_draft_order_uuid_param",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.fix.apple_pay_wallet_call": {
+          "namespace": "web-eats",
+          "key": "fix.apple_pay_wallet_call",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ads_off_platform_attribution_url_patterns": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ads_off_platform_attribution_url_patterns",
+          "value": ".*/feeds.*,.*/store.*,.*/product.*",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_eater_home_parameters.web_feed_pagination_lazyload": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_pagination_lazyload",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.reorder_button_enabled": {
+          "namespace": "web-eats",
+          "key": "feature.reorder_button_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_seo.guest.checkout.enabled": {
+          "namespace": "eats_web_seo",
+          "key": "guest.checkout.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.disable_new_chat_thread_creation_for_gift_orders": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "disable_new_chat_thread_creation_for_gift_orders",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.product_details_page_ssr": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "product_details_page_ssr",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_terminated_order_auto_appeasement": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_terminated_order_auto_appeasement",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_store_parameters.store_add_to_cart_button_revamp": {
+          "namespace": "eats_web_shopping_store_parameters",
+          "key": "store_add_to_cart_button_revamp",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.migrate_to_ordering_presentation.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.migrate_to_ordering_presentation.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xlb_consistent_cta_position": {
+          "namespace": "web-eats",
+          "key": "xlb_consistent_cta_position",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.web_feed_refresh_dynamic_carousel_height": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_refresh_dynamic_carousel_height",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.web_feed_refresh_style": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_refresh_style",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.membership_ftux.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.membership_ftux.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.store_gr_two_clamp_lines_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "store_gr_two_clamp_lines_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_gr_shopping_store_parameters.color_images_enabled": {
+          "namespace": "eats_web_gr_shopping_store_parameters",
+          "key": "color_images_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.web_feed_carousel_feed_force_scroll_top_logging": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_carousel_feed_force_scroll_top_logging",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eatsfeed-citrus.ranking.disclaimer.action_url": {
+          "namespace": "eatsfeed-citrus",
+          "key": "ranking.disclaimer.action_url",
+          "value": "?mod=adsInfo",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_shopping_mechanics_mobile.eats_checkout_cart_step_button_cta_text": {
+          "namespace": "eats_shopping_mechanics_mobile",
+          "key": "eats_checkout_cart_step_button_cta_text",
+          "value": "go_to_checkout_button_title",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.feature.buy_an_item_enabled": {
+          "namespace": "web-eats",
+          "key": "feature.buy_an_item_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_shopping_parameters.eats_web_pickup_map_enabled": {
+          "namespace": "eats_web_shopping_parameters",
+          "key": "eats_web_pickup_map_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.native_r2e_skip_ewf_addon": {
+          "namespace": "web-eats",
+          "key": "native_r2e_skip_ewf_addon",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.enableCheckoutGiftingBanner": {
+          "namespace": "web-eats",
+          "key": "feature.enableCheckoutGiftingBanner",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.pdp_admins": {
+          "namespace": "web-eats",
+          "key": "pdp_admins",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.enable_default_hotel_interaction_type_override": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "enable_default_hotel_interaction_type_override",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.web_feed_refresh_grocery_carousel_action_url": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_refresh_grocery_carousel_action_url",
+          "value": "/category-feed?verticalType=Shop",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "order-gateway.order-gateway.web.lad_photo_termination_screen.enabled": {
+          "namespace": "order-gateway",
+          "key": "order-gateway.web.lad_photo_termination_screen.enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.web_pdp_cheaper_alternatives_enabled_v1": {
+          "namespace": "web-eats",
+          "key": "feature.web_pdp_cheaper_alternatives_enabled_v1",
+          "value": "disabled",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJq//oDEIFZvBVbFDJQWTGjr2yNWqtYWJFvGyxXSKrP+0NGQEnWmpbVBdMQoZJEwJPxwH+FBjzeE2H1hqAgJ2Y4QX9c1cokDd9D6q+UCXQe0ToprmyOjVfLKvJEEVs+zEcNAtrlyTCuRh0mvdtf0fIrudLOKz2i1dJk69zC2mG4V/54tInshkYi5R6r3pyBzdYB4RhZ8fp//hTbX+DG:eec3dee2fe04ec39c648fb272079beaa"
+        },
+        "web-eats.embedded.disable_user_select": {
+          "namespace": "web-eats",
+          "key": "embedded.disable_user_select",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.fix.draft_order_cookie_recovery": {
+          "namespace": "web-eats",
+          "key": "fix.draft_order_cookie_recovery",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ads_third_party_tracker_pco_enabled": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ads_third_party_tracker_pco_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.privacy.enable-gdpr-consent": {
+          "namespace": "web-eats",
+          "key": "privacy.enable-gdpr-consent",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-payments-experience.features.checkout_actions.all_token_types.is_enabled": {
+          "namespace": "web-payments-experience",
+          "key": "features.checkout_actions.all_token_types.is_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.membership_order_context_checkout_actions.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.membership_order_context_checkout_actions.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xp.unify_guest_cart": {
+          "namespace": "web-eats",
+          "key": "xp.unify_guest_cart",
+          "value": "control",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ06rUCC5pa6z1ZAwhTSR6frXacGfcfXK9iAj0QAObN4EREV1Xl3dSWEd4ZsKhmiMG4wDPGPAj3ZB6ItpADA1sHcEk3t69wEZ8U6o2MFWRdn30bqlirrXr2HsdvOkMP531hf6O6knepbwkkodxS6/EbpNHfBjeuwshP1ouZ9D4=:501a7f5f9555ef3d38bddae698462e1d"
+        },
+        "u4b_web.group_order_bill_split": {
+          "namespace": "u4b_web",
+          "key": "group_order_bill_split",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.enable_unified_checkout_post_order_tipping": {
+          "namespace": "web-eats",
+          "key": "enable_unified_checkout_post_order_tipping",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_growth.banner.membership.upsell.config": {
+          "namespace": "eats_web_growth",
+          "key": "banner.membership.upsell.config",
+          "value": "{\"US\":{\"feeAmount\":\"$0\"},\"MX\":{\"feeAmount\":\"$0\"},\"GB\":{\"feeAmount\":\"£0\"},\"DE\":{\"feeAmount\":\"€0\"},\"AU\":{\"feeAmount\":\"$0\"},\"CA\":{\"feeAmount\":\"$0\"},\"FR\":{\"feeAmount\":\"€0\"},\"TW\":{\"feeAmount\":\"$0\"},\"JP\":{\"feeAmount\":\"¥0\"},\"CL\":{\"feeAmount\":\"$0\"},\"ES\":{\"feeAmount\": \"€0\"}}",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.feature.eats_web_shell_bf_cache_reload": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_bf_cache_reload",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.xp.mweb_app_upsell_pre_order": {
+          "namespace": "web-eats",
+          "key": "xp.mweb_app_upsell_pre_order",
+          "value": "not_included",
+          "valueType": "VALUE_TYPE_STRING",
+          "token": "VGX4n5/XTwZ6DDJldR7BjA+bi7I8se/eFR6zzilNb62lFSUFzPXxHvfipzJ06rUaEpZezQNOBjJVTTKZoGi3S6lYdaF8Ez1AGOiM+UtcUF+rxdraCMsqrKNRncS5h23GRmvNUDeih50qNmF2HjkouKQHKexi1quoJkJouVExqAKm5Cr6BcNtO2ke+2oGPYj9l3umVRI+g99Sx7RUmoDPPCKm09lPyNbXzSz3eIMu4c2zuktM0gf1mK6J:1389f83b84d41d61cfcba72f5eb086d9"
+        },
+        "web-eats.xp.persistent_cart": {
+          "namespace": "web-eats",
+          "key": "xp.persistent_cart",
+          "value": "not_included",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "web-eats.feature.disable_storefront_ssr": {
+          "namespace": "web-eats",
+          "key": "feature.disable_storefront_ssr",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_post_order_parameters.show_scheduled_order_neutral_zone": {
+          "namespace": "eats_web_post_order_parameters",
+          "key": "show_scheduled_order_neutral_zone",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats-web-cdex-parameters.enable_custom_items_consumer_web": {
+          "namespace": "eats-web-cdex-parameters",
+          "key": "enable_custom_items_consumer_web",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.web_feed_pagination_surface_name": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_pagination_surface_name",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_modal_two_pass_render_enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_modal_two_pass_render_enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.feature.eats_web_shell_feed.enabled": {
+          "namespace": "web-eats",
+          "key": "feature.eats_web_shell_feed.enabled",
+          "value": false,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_platform_parameters.enable_lite_feed": {
+          "namespace": "eats_web_platform_parameters",
+          "key": "enable_lite_feed",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.lgx.delivery_options_tooltip": {
+          "namespace": "web-eats",
+          "key": "lgx.delivery_options_tooltip",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_eater_home_parameters.carousel_header_title_clickable_flag": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "carousel_header_title_clickable_flag",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_web_platform_parameters.eats_web_admin_menu": {
+          "namespace": "eats_web_platform_parameters",
+          "key": "eats_web_admin_menu",
+          "value": "disabled",
+          "valueType": "VALUE_TYPE_STRING"
+        },
+        "eats_web_eater_home_parameters.web_feed_cuisine_filter": {
+          "namespace": "eats_web_eater_home_parameters",
+          "key": "web_feed_cuisine_filter",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "web-eats.enable.invoice.error.handling": {
+          "namespace": "web-eats",
+          "key": "enable.invoice.error.handling",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        },
+        "eats_ads_platform_web.ad_cx_tier_2_events_enabled": {
+          "namespace": "eats_ads_platform_web",
+          "key": "ad_cx_tier_2_events_enabled",
+          "value": true,
+          "valueType": "VALUE_TYPE_BOOL"
+        }
+      },
+      "sharedInfoToken": "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:9443b4a8b45dd8d6a9b61cab275a12bf",
+      "enableDebugging": false
+    }
+  },
+  {
+    "url": "https://www.ubereats.com/_p/api/getInstructionForLocationV1",
+    "body": {
+      "status": "success",
+      "data": {
+        "availableInteractionTypes": [
+          "door_to_door",
+          "curbside"
+        ],
+        "preferredInteractionType": "door_to_door",
+        "defaultInteractionType": "door_to_door",
+        "instructions": [],
+        "selectedInstruction": null
+      }
+    }
+  },
+  {
+    "url": "https://www.ubereats.com/_p/api/setRobotEventsV1",
+    "body": {
+      "status": "success",
+      "data": "created"
+    }
+  },
+  {
+    "url": "https://www.ubereats.com/_p/api/getSearchHomeV2",
+    "body": {
+      "status": "success",
+      "data": {
+        "searchHistory": [],
+        "suggestedSections": [],
+        "verticalSuggestionLists": [
+          {
+            "verticalType": "ALL",
+            "title": "All"
+          },
+          {
+            "verticalType": "RESTAURANTS",
+            "title": "Restaurants"
+          },
+          {
+            "verticalType": "SHOP",
+            "title": "Grocery"
+          },
+          {
+            "verticalType": "ALCOHOL",
+            "title": "Alcohol"
+          }
+        ],
+        "verticalSearchHomeResults": {
+          "ALL": [
+            {
+              "type": "sectionTitle",
+              "title": "Top categories",
+              "titleTerm": "",
+              "iconUrl": ""
+            },
+            {
+              "type": "topCategory",
+              "title": "Pizza",
+              "titleTerm": "Pizza",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Pizza.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Sushi",
+              "titleTerm": "Sushi",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Sushi.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Chinese",
+              "titleTerm": "Chinese",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Chinese.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Thai",
+              "titleTerm": "Thai",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Thai.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Pasta",
+              "titleTerm": "Pasta",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Italian.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Soup",
+              "titleTerm": "Soup",
+              "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Placeholder_Pot@3x.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Ramen",
+              "titleTerm": "Ramen",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Asian.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Healthy",
+              "titleTerm": "Healthy",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Healthy.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Kosher",
+              "titleTerm": "Kosher",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Kosher.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Tacos",
+              "titleTerm": "Tacos",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Mexican.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Mexican",
+              "titleTerm": "Mexican",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Mexican.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Halal",
+              "titleTerm": "Halal",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Halal.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Indian",
+              "titleTerm": "Indian",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Indian.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Korean",
+              "titleTerm": "Korean",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Korean.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Wings",
+              "titleTerm": "Wings",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Wings.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Sandwich",
+              "titleTerm": "Sandwich",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Sandwich.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Flowers",
+              "titleTerm": "Flowers",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Flowers@3x.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Italian",
+              "titleTerm": "Italian",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Italian.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Seafood",
+              "titleTerm": "Seafood",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Seafood.png"
+            }
+          ],
+          "RESTAURANTS": [
+            {
+              "type": "sectionTitle",
+              "title": "Top categories",
+              "titleTerm": "",
+              "iconUrl": ""
+            },
+            {
+              "type": "topCategory",
+              "title": "Pizza",
+              "titleTerm": "Pizza",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Pizza.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Sushi",
+              "titleTerm": "Sushi",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Sushi.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Chinese",
+              "titleTerm": "Chinese",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Chinese.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Thai",
+              "titleTerm": "Thai",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Thai.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Pasta",
+              "titleTerm": "Pasta",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Italian.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Soup",
+              "titleTerm": "Soup",
+              "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Placeholder_Pot@3x.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Ramen",
+              "titleTerm": "Ramen",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Asian.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Healthy",
+              "titleTerm": "Healthy",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Healthy.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Kosher",
+              "titleTerm": "Kosher",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Kosher.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Tacos",
+              "titleTerm": "Tacos",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Mexican.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Mexican",
+              "titleTerm": "Mexican",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Mexican.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Halal",
+              "titleTerm": "Halal",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Halal.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Indian",
+              "titleTerm": "Indian",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Indian.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Korean",
+              "titleTerm": "Korean",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Korean.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Wings",
+              "titleTerm": "Wings",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Wings.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Sandwich",
+              "titleTerm": "Sandwich",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Sandwich.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Flowers",
+              "titleTerm": "Flowers",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Flowers@3x.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Italian",
+              "titleTerm": "Italian",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Italian.png"
+            },
+            {
+              "type": "topCategory",
+              "title": "Seafood",
+              "titleTerm": "Seafood",
+              "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Seafood.png"
+            }
+          ],
+          "SHOP": [
+            {
+              "type": "sectionTitle",
+              "title": "Top searches",
+              "titleTerm": "",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "milk",
+              "titleTerm": "milk",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "bread",
+              "titleTerm": "bread",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "eggs",
+              "titleTerm": "eggs",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "candy",
+              "titleTerm": "candy",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "water",
+              "titleTerm": "water",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "toilet paper",
+              "titleTerm": "toilet paper",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "ice cream",
+              "titleTerm": "ice cream",
+              "iconUrl": ""
+            }
+          ],
+          "ALCOHOL": [
+            {
+              "type": "sectionTitle",
+              "title": "Top searches",
+              "titleTerm": "",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "wine",
+              "titleTerm": "wine",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "beer",
+              "titleTerm": "beer",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "vodka",
+              "titleTerm": "vodka",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "tequila",
+              "titleTerm": "tequila",
+              "iconUrl": ""
+            },
+            {
+              "type": "searchHistoryV2",
+              "title": "champagne",
+              "titleTerm": "champagne",
+              "iconUrl": ""
+            }
+          ]
+        },
+        "browseHomeFeed": [
+          {
+            "itemType": "SECTION_HEADER",
+            "title": "Top categories"
+          },
+          {
+            "itemType": "CATEGORY",
+            "items": [
+              {
+                "itemType": "CATEGORY",
+                "title": "Pizza",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Pizza.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Pizza"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Sushi",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Sushi.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Sushi"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Chinese",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Chinese.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Chinese"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Thai",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Thai.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Thai"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Latest Deals",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Deals_1x.png",
+                "categoryType": "VALUE_HUB_ENTRY",
+                "keyName": "LatestDeals"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Best overall",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine_Top_Eats.png",
+                "categoryType": "TOP_EATS_ENTRY",
+                "keyName": "TopEats"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Convenience",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/ConvenienceTile.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Convenience"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Pasta",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_refinements/photos/Pasta.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Pasta"
+              }
+            ]
+          },
+          {
+            "itemType": "SECTION_HEADER",
+            "title": "All categories"
+          },
+          {
+            "itemType": "CATEGORY",
+            "items": [
+              {
+                "itemType": "CATEGORY",
+                "title": "Soup",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Soup.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Soup"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Ramen",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Ramen.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Ramen"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Healthy",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Healthy.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Healthy"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Kosher",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Kosher.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Kosher"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Tacos",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_refinements/photos/Tacos.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Taco"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Mexican",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Mexican.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Mexican"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Halal",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Halal.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Halal"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Indian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Indian.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Indian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Korean",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Korean.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Korean"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Wings",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Wings.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Wings"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Sandwich",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Sandwich.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Sandwich"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Flowers",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Flowers.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Flowers"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Italian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Italian.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Italian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Seafood",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Seafood.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Seafood"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Greek",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Greek.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Greek"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Bubble Tea",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=BubbleTea.png",
+                "categoryType": "CATEGORY",
+                "keyName": "BubbleTea"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Jamaican",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/dde681cc6bbbb8bf6dbe2b30916f1027",
+                "categoryType": "CATEGORY",
+                "keyName": "Jamaican"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "BBQ",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=BBQ.png",
+                "categoryType": "CATEGORY",
+                "keyName": "BBQ"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Poke",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Poke.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Poke"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Burgers",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Burger.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Burger"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Bakery",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Bakery.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Bakery"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Vegan",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Vegan.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Vegan"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Soul Food",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=SoulFood.png",
+                "categoryType": "CATEGORY",
+                "keyName": "SoulFood"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Gluten Free",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/e40d6fd9f8a594bfad4305fc965b6a4a",
+                "categoryType": "CATEGORY",
+                "keyName": "GlutenFree"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Japanese",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Japanese.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Japanese"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Alcohol",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/ef607d9b260dcc5b3d1c0bdca1bfbe7d",
+                "categoryType": "CATEGORY",
+                "keyName": "Alcohol"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Vietnamese",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Vietnamese.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Vietnamese"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Mediterranean",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/7aa9aeff334776f152be164cd02ca062",
+                "categoryType": "CATEGORY",
+                "keyName": "Mediterranean"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Fast Food",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=FastFood.png",
+                "categoryType": "CATEGORY",
+                "keyName": "FastFood"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Desserts",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Dessert.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Dessert"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Dominican",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/b8d737a79eb768eb868894224dc400e0",
+                "categoryType": "CATEGORY",
+                "keyName": "Dominican"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Spanish",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/4f8afc1b602a71736e43c17e25219e3c",
+                "categoryType": "CATEGORY",
+                "keyName": "Spanish"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Donuts",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Donut.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Donut"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Peruvian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/6f947d48e064295bbb7325b383ac88ca",
+                "categoryType": "CATEGORY",
+                "keyName": "Peruvian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Deli",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/cc9ef0d3f2b74972f2c97a2781b2880c",
+                "categoryType": "CATEGORY",
+                "keyName": "Deli"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Grocery",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/9723f798f4bd09d8ec81dfea0cb3a975",
+                "categoryType": "CATEGORY",
+                "keyName": "Grocery"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Asian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Asian.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Asian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "African",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/d95e8c376f9fde5ece488d3f18cb4166",
+                "categoryType": "CATEGORY",
+                "keyName": "African"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Ice Cream and Frozen Yogurt",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=IceCreamAndFrozenYogurt.png",
+                "categoryType": "CATEGORY",
+                "keyName": "IceCreamAndFrozenYogurt"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Filipino",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/bad5f040f27afdb22c76d8076d57eaa3",
+                "categoryType": "CATEGORY",
+                "keyName": "Filipino"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Hot Dog",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_refinements/photos/Hot_Dogs.png",
+                "categoryType": "CATEGORY",
+                "keyName": "HotDog"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Turkish",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/8dc30bebd98b542e209ee97a9d6977c5",
+                "categoryType": "CATEGORY",
+                "keyName": "Turkish"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Cupcakes",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Cupcake.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Cupcake"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Haitian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/4921d1bde5cc102f2bc5d04983b470a9",
+                "categoryType": "CATEGORY",
+                "keyName": "Haitian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Colombian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/e91ac27b3e91b06523cdaf5891f7c69b",
+                "categoryType": "CATEGORY",
+                "keyName": "Colombian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Caribbean",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Caribbean.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Caribbean"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Curry",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_refinements/photos/Curries.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Curry"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Congee",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Congee.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Congee"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Salads",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Salad.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Salad"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Cheesesteak",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/cuisine-dish-supertype/Cheesesteak.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Cheesesteak"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Vegetarian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/d05be7041817489907d26ae125aa0de1",
+                "categoryType": "CATEGORY",
+                "keyName": "Vegetarian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Fish and Chips",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=FishAndChips.png",
+                "categoryType": "CATEGORY",
+                "keyName": "FishAndChips"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Kebab",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/cuisine-dish-supertype/Kebab.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Kebab"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Biryani",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Biriyani.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Biryani"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Ethiopian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/b4f03ccb6b22edb09e0631f7912fbe0e",
+                "categoryType": "CATEGORY",
+                "keyName": "Ethiopian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Brazilian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/210ed9c483d2ecce321c4e06c7c3da6f",
+                "categoryType": "CATEGORY",
+                "keyName": "Brazilian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Taiwanese",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=Taiwanese.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Taiwanese"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Falafel",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/cuisine-dish-supertype/Falafel.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Falafel"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Coffee and Tea",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=CoffeeAndTea.png",
+                "categoryType": "CATEGORY",
+                "keyName": "CoffeeAndTea"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Cuban",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/257a7721eb8997d141f3f1cc67bfb0e0",
+                "categoryType": "CATEGORY",
+                "keyName": "Cuban"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Cafe",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/9ddae01d317082a5cb3727d945a4880b",
+                "categoryType": "CATEGORY",
+                "keyName": "Cafe"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Malaysian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/d1f19d7539cdfb6a3c4241955948b7af",
+                "categoryType": "CATEGORY",
+                "keyName": "Malaysian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "BOGO",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/marchmadness.png",
+                "categoryType": "CATEGORY",
+                "keyName": "BOGO"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Hawaiian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/5ef386652232c6e8ca88d9fd7336845b",
+                "categoryType": "CATEGORY",
+                "keyName": "Hawaiian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Burritos",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_refinements/photos/Burritos.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Burrito"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Juice and Smoothies",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=JuiceAndSmoothies.png",
+                "categoryType": "CATEGORY",
+                "keyName": "JuiceAndSmoothies"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Pharmacy",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/pharma.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Pharmacy"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "American",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=American.png",
+                "categoryType": "CATEGORY",
+                "keyName": "American"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Pastry",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/861d2b9d393be89f98be5cb2e7e5845c",
+                "categoryType": "CATEGORY",
+                "keyName": "Pastry"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Georgian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/ce83a705def45ab34917479369780706",
+                "categoryType": "CATEGORY",
+                "keyName": "Georgian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Middle Eastern",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/0f8eb25c1202f7fc963d8e2debc202af",
+                "categoryType": "CATEGORY",
+                "keyName": "MiddleEastern"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "French",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/60ae0adfdc27ba36ac4ebec59ed47474",
+                "categoryType": "CATEGORY",
+                "keyName": "French"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Comfort Food",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=ComfortFood.png",
+                "categoryType": "CATEGORY",
+                "keyName": "ComfortFood"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Puerto Rican",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/8596515cadd577e2104d068a43a50bf2",
+                "categoryType": "CATEGORY",
+                "keyName": "PuertoRican"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Lebanese",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/5fc801c20745766a5ae7421dcd945207",
+                "categoryType": "CATEGORY",
+                "keyName": "Lebanese"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Snack",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/snack.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Snack"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Nigerian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/17c9cb8a5ca511e35467c738f3adcc0a",
+                "categoryType": "CATEGORY",
+                "keyName": "Nigerian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Pakistani",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/6e98068c35b3eca8171a0b6e15998086",
+                "categoryType": "CATEGORY",
+                "keyName": "Pakistani"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Beauty Supply",
+                "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/BeautySupply.png",
+                "categoryType": "CATEGORY",
+                "keyName": "BeautySupply"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Israeli",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/f029e834c40eda164f0950b9efbd52b9",
+                "categoryType": "CATEGORY",
+                "keyName": "Israeli"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Breakfast and Brunch",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=BreakfastAndBrunch.png",
+                "categoryType": "CATEGORY",
+                "keyName": "BreakfastAndBrunch"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Tex Mex",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/82ad068a4fabaa78308cafe9b3f192cd",
+                "categoryType": "CATEGORY",
+                "keyName": "TexMex"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "West Indian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/2f6df0d9a61a816d1af39634c9bbfc79",
+                "categoryType": "CATEGORY",
+                "keyName": "WestIndian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Venezuelan",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/d137f03f42415bc4048ca851f548d7a4",
+                "categoryType": "CATEGORY",
+                "keyName": "Venezuelan"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Afghan",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/f4a19083bd38d4039c73080dc2a16fee",
+                "categoryType": "CATEGORY",
+                "keyName": "Afghan"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "SNAP",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/9723f798f4bd09d8ec81dfea0cb3a975",
+                "categoryType": "CATEGORY",
+                "keyName": "US_SNAP"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Bangladeshi",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/b0918d1d1c2e68da8e1152050f261910",
+                "categoryType": "CATEGORY",
+                "keyName": "Bangladeshi"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Russian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/1aa7add8beef1f39adf099f57185cb39",
+                "categoryType": "CATEGORY",
+                "keyName": "Russian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Family Meals",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/FamilyMeals.jpeg",
+                "categoryType": "CATEGORY",
+                "keyName": "FamilyMeals"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Box Catering",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/GroupFriendly.png",
+                "categoryType": "CATEGORY",
+                "keyName": "GroupFriendly"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Convenience",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/ConvenienceTile.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Convenience"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Cantonese",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/85777a0f573a04acaacc19d94ff725fc",
+                "categoryType": "CATEGORY",
+                "keyName": "Cantonese"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Uzbek",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/0d473ec5d74e50056d996265e7f5833f",
+                "categoryType": "CATEGORY",
+                "keyName": "Uzbek"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Nepalese",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/0cc90024dbd2687a54c774078a558e07",
+                "categoryType": "CATEGORY",
+                "keyName": "Nepalese"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Cajun",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/db2fc543b2b06589a145f55899c71c18",
+                "categoryType": "CATEGORY",
+                "keyName": "Cajun"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Diners",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/fa7ced03c7f36348dd525abb931ee372",
+                "categoryType": "CATEGORY",
+                "keyName": "Diner"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Salvadorian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/2c195f7358e3c758e45d9c5cc47c6540",
+                "categoryType": "CATEGORY",
+                "keyName": "Salvadorian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Southern",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/32a82c01404d13aa10e51ec889e860f3",
+                "categoryType": "CATEGORY",
+                "keyName": "Southern"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Asian Fusion",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/c2550f8cf42617cb4d0014de7d0cd577",
+                "categoryType": "CATEGORY",
+                "keyName": "AsianFusion"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Tempura",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Tempura.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Tempura"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Electronics",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/electronics.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Electronics"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Retail",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Retail.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Retail"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Bar Food",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/92daea70cc9f6b0725ab7bedcf93284c",
+                "categoryType": "CATEGORY",
+                "keyName": "BarFood"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Palestinian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/palestinian-tile.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Palestinian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Latin American",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/d7e44b1840cf3f1f77ebe31651b3f9e3",
+                "categoryType": "CATEGORY",
+                "keyName": "LatinAmerican"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "South Indian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/58d5b215edd0ca322b7c0f193a495822",
+                "categoryType": "CATEGORY",
+                "keyName": "SouthIndian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Burmese",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/61ce1f27bcc3e7377465822f8084bcbf",
+                "categoryType": "CATEGORY",
+                "keyName": "Burmese"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Street Food",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/browse_home/Cuisine=StreetFood.png",
+                "categoryType": "CATEGORY",
+                "keyName": "StreetFood"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Rolls",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Rolls.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Rolls"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Gourmet",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Gourmet.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Gourmet"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Ukrainian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/204c3567bbed16d5dc2cc4a2ab99bc61",
+                "categoryType": "CATEGORY",
+                "keyName": "Ukrainian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Jewish",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/eb49daebeb9a2ec84748497854b5c478",
+                "categoryType": "CATEGORY",
+                "keyName": "Jewish"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Pub",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/07c8a18c386b4f4263e8c6a8921c4676",
+                "categoryType": "CATEGORY",
+                "keyName": "Pub"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Arab",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/9ce7071e3e974db190a1cefe9a7b6001",
+                "categoryType": "CATEGORY",
+                "keyName": "Arabian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Rice bowls",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/DonMono.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "DonMono"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Indian Curry",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/IndianCurry.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "IndianCurry"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Japanese BBQ",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Yakiniku.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Yakiniku"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Himalayan",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/e918f4ba7b50c5180e72c937f875b7a4",
+                "categoryType": "CATEGORY",
+                "keyName": "Himalayan"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Hardware",
+                "iconUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/cuisine-filters/Home%26DIY.png",
+                "categoryType": "CATEGORY",
+                "keyName": "Hardware"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Latin Fusion",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/23f7400a01fa463a0384bb82ebfdf238",
+                "categoryType": "CATEGORY",
+                "keyName": "LatinFusion"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Baby",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/baby.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Baby"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Vegan Friendly",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/89c8254e4ce8e38d996b95fca9ba5334",
+                "categoryType": "CATEGORY",
+                "keyName": "VeganFriendly"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "European",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/6fb0b3e7fadd682aca1f5213d40c33d5",
+                "categoryType": "CATEGORY",
+                "keyName": "European"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "New American",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/12832a352dccdd2d165421e1e73fdad9",
+                "categoryType": "CATEGORY",
+                "keyName": "NewAmerican"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "West African",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/f26f6dd8268ebcb17ceafdbf63defae8",
+                "categoryType": "CATEGORY",
+                "keyName": "WestAfrican"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Eastern European",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/86d3a62292cc25481abe6e03fdc71cc0",
+                "categoryType": "CATEGORY",
+                "keyName": "EasternEuropean"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Pet Supplies",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/PetSupplies.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "PetSupplies"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Personal Care",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/PersonalCare.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "PersonalCare"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Vegetarian Friendly",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/8b64f4fdc97deb44adc209f90d4ea09d",
+                "categoryType": "CATEGORY",
+                "keyName": "VegetarianFriendly"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Exclusive to Eats",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Only+on+Uber+Eats_1x.png",
+                "categoryType": "CATEGORY",
+                "keyName": "ExclusivetoEats"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "South American",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/d7e44b1840cf3f1f77ebe31651b3f9e3",
+                "categoryType": "CATEGORY",
+                "keyName": "SouthAmerican"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Western",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/cfb732b6a1111371079b2fdb73287fcc",
+                "categoryType": "CATEGORY",
+                "keyName": "Western"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Benefits eligible",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/d199ad322d6f6221e35edc88e016a73d",
+                "categoryType": "CATEGORY",
+                "keyName": "US_FLEX"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Pet Shop",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/pet.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "PetShop"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Affordable Meals",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/AffordableMeals.png",
+                "categoryType": "CATEGORY",
+                "keyName": "AffordableMeals"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Gluten Free Friendly",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/73161aa27cd74c41a11d263ef6ddc9ec",
+                "categoryType": "CATEGORY",
+                "keyName": "GlutenFreeFriendly"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Southern Thai",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/SouthernThai.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "SouthernThai"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Syrian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/0ce0ab698ee01082919619ac9bb70057",
+                "categoryType": "CATEGORY",
+                "keyName": "Syrian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Specialty Foods",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/SpecialtyFoods.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "SpecialtyFoods"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Kids Friendly",
+                "iconUrl": "https://d1a3f4spazzrp4.cloudfront.net/chameleon/cms/uploads/2017/10/2/1506928763-Resized1.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "KidsFriendly"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Black-owned",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/BlackOwned.png",
+                "categoryType": "CATEGORY",
+                "keyName": "BlackOwned"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Traditional American",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/538dbc6b6a0e2fa973d28f8a8d68c8b5",
+                "categoryType": "CATEGORY",
+                "keyName": "TraditionalAmerican"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "North Indian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/271de51c4a81a8cc779847ea6534793c",
+                "categoryType": "CATEGORY",
+                "keyName": "NorthIndian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "New Mexican",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/d409b9e4da70c004798275dc9b6a8291",
+                "categoryType": "CATEGORY",
+                "keyName": "NewMexican"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Japanese style sweets",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Wagashi.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Wagashi"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Congee & Boil Rice",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/CongeeBoilRice.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "CongeeBoilRice"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Modern European",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/b341a87c10d42a3db00843e35f8975c6",
+                "categoryType": "CATEGORY",
+                "keyName": "ModernEuropean"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "South Asian",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/8f056997b879abf2e31caa1ca2c2d57e",
+                "categoryType": "CATEGORY",
+                "keyName": "SouthAsian"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Japanese Skewer food",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/Kushimono.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "Kushimono"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Northeastern Thai",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/NortheasternThai.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "NortheasternThai"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Everyday Essentials",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/essentials.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "EverydayEssentials"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Modern French",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/7c982947ceeb58c68bd7b93f2779d958",
+                "categoryType": "CATEGORY",
+                "keyName": "ModernFrench"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Slovak",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/sku/d82a399012f9176b86980dc1788884ae",
+                "categoryType": "CATEGORY",
+                "keyName": "Slovak"
+              },
+              {
+                "itemType": "CATEGORY",
+                "title": "Northern Thai",
+                "iconUrl": "https://duyt4h9nfnj50.cloudfront.net/search_home/NorthernThai.jpg",
+                "categoryType": "CATEGORY",
+                "keyName": "NorthernThai"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://www.ubereats.com/_translations",
+    "body": {
+      "components.cart_item_customization.min": "Choose ${min}",
+      "components.cart_item_customization.required": "Required",
+      "components.cart_item_customization.added": "${quantity} added (${priceDelta})",
+      "components.cart_item_customization.between": "Choose between ${min} and ${max}",
+      "components.cart_item_customization.at_least": "Choose at least ${min}",
+      "components.cart_item_customization.up_to": "Choose up to ${max}",
+      "components.cart_item_customization.included": "${chargeAbove} included",
+      "components.cart_item_customization.removed": "${quantity} removed (${priceDelta})",
+      "components.cart_item_customization.for_each_extra": "${price} for each extra",
+      "menu_item.unique_options.range": "Pick from ${min}-${max} options",
+      "menu_item.unique_options.max": "Pick from up to ${max} options",
+      "menu_item.unique_options.min": "Pick from at least ${min} options",
+      "menu_item.unique_options.exact": "Pick ${exact} options"
+    }
+  },
+  {
+    "url": "https://www.ubereats.com/_maps_provenance",
+    "body": {
+      "ok": true
+    }
+  },
+  {
+    "url": "https://www.ubereats.com/_p/api/getSessionElapseV1",
+    "body": {
+      "status": "success",
+      "data": 4286
+    }
+  }
+]
